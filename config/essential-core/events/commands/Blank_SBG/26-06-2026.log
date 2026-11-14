@@ -1,0 +1,144 @@
+[00:01:49] stop
+[00:03:36] stop
+[00:06:08] stop
+[00:07:43] stop
+[00:09:44] stop
+[00:13:01] gamemode spectator
+[00:13:22] seed
+[00:13:44] chunky start minecraft:overworld square 0 0 5000 5000
+[00:13:49] dh config generation.enable false
+[00:13:52] chunky confirm
+[00:20:22] locate biome biomesoplenty:jade_cliffs
+[00:20:31] tp @s -1942 222 -1047
+[00:20:41] gamemode creative
+[00:21:34] locate biome minecraft:jagged_peaks
+[00:23:58] gamemode spectator
+[00:24:04] locate biome minecraft:jagged_peaks
+[00:24:08] tp @s 1106 137 -2329
+[00:27:12] gamemode spectator
+[00:27:33] locate biome minecraft:jagged_peaks
+[00:27:36] tp @s 607 230 -1754
+[00:28:12] locate biome biomesoplenty:jade_cliffs
+[00:28:18] tp @s -1938 339 -1015
+[00:32:11] tp @s -1938 339 -1015
+[00:32:14] gamemode creative
+[00:32:46] tp @s 607 230 -1754
+[00:33:20] stop
+[00:36:05] tp @s 607 230 -1754
+[00:36:07] gamemode spectator
+[00:37:06] tp @s 3084 ~ -932
+[00:37:33] locate biome biomesoplenty:jade_cliffs
+[00:37:41] tp @s 6274 348 1876
+[00:39:49] gamemode spectator
+[00:42:51] gamemode spectator
+[00:45:59] gamemode spectator
+[00:49:28] gamemode spectator
+[00:53:44] gamemode spectator
+[00:56:13] stop
+[00:57:49] gamemode spectator
+[01:01:50] gamemode spectator
+[01:05:18] gamemode spectator
+[01:06:27] stop
+[01:09:58] gamemode spectator
+[01:14:52] gamemode spectator
+[01:16:01] stop
+[01:18:48] gamemode spectator
+[01:19:55] sop
+[01:21:51] gamemode spectator
+[01:25:27] gamemode spectator
+[01:27:41] gamemode spectator
+[01:29:03] locate biome biomesoplenty:jade_cliffs
+[01:29:09] tp @s 2880 501 -455
+[01:35:29] gamemode spectator
+[01:35:31] tp @s 2880 501 -455
+[01:36:32] chunky start minecraft:overworld circle 2550 -1030 1000 1000
+[01:36:35] chunky confirm
+[01:45:51] chunky start minecraft:overworld square 0 0 5000 5000
+[02:09:09] tp 0 100 0
+[02:12:41] tp 0 100 0
+[02:23:25] gamemode spectator
+[02:25:40] gamemode spectator
+[02:25:59] tp 0 100 0
+[02:30:32] tp 0 100 0
+[02:30:33] gamemode creative
+[02:30:58] seed
+[02:31:07] gamemode spectator
+[02:31:15] locate biome biomesoplenty:jade_cliffs
+[02:31:18] tp @s 1807 192 -1533
+[02:32:01] locate biome minecraft:river
+[02:32:04] tp @s 1355 231 -484
+[02:32:36] locate biome minecraft:desert
+[02:32:39] tp @s 3469 175 929
+[02:33:13] tp 100 100 100
+[02:34:30] locate biome biomesoplenty:jade_cliffs
+[02:34:33] tp @s 1793 219 -1520
+[02:34:46] tp @s -400 ~ -712
+[02:34:56] tp @s -2864 ~ -672
+[02:34:59] rtp
+[02:35:15] tp @s 3800 ~ -416
+[02:35:51] tp @s 2438 ~ -1866
+[02:35:58] tp @s 1694 ~ -2214
+[02:36:06] tp @s 1494 ~ 764
+[02:36:13] tp @s 778 ~ 874
+[02:36:34] rtp
+[02:37:12] locate biome biomesoplenty:jade_cliffs
+[02:37:38] locate biome minecraft:jagged_peaks
+[02:37:47] tp @s 1727 244 -737
+[02:38:59] tp @s -4976 ~ 136
+[02:39:34] tp @s -4756 ~ -3892
+[02:39:53] tp @s 72 ~ -4704
+[02:39:59] tp @s -1932 ~ -3380
+[02:40:53] locate biome biomesoplenty:jade_cliffs
+[02:40:55] locate biome minecraft:jagged_peaks
+[02:40:59] tp @s -2382 152 -2675
+[02:42:52] seed
+[02:43:00] tp 0 100 0
+[02:46:01] chunky start minecraft:overworld square 0 0 3000 3000
+[02:46:05] chunky confirm
+[02:47:20] gamemode creative
+[02:48:34] setworldspawn 263 64 -105
+[02:48:37] kill
+[03:02:17] setworldspawn 216 66 -171
+[03:02:27] gamerule spawnRadius
+[03:02:30] gamerule spawnRadius 1
+[03:02:32] kill
+[03:02:45] gamerule spawnRadius 3
+[03:02:46] kill
+[03:02:52] gamerule spawnRadius 2
+[03:02:53] kill
+[03:03:33] time set 0
+[03:04:05] chunky start minecraft:overworld square 0 0 8000 8000
+[03:05:08] time set midnight
+[03:05:22] gamemode survival
+[03:05:30] gamemode creative
+[03:10:43] kit create_from_player_inv start * (once only)
+[03:10:52] kit set_autogrant start true
+[03:11:02] kit cooldown start * (once only)
+[03:11:16] kit reset_cooldown start @p
+[03:11:49] kit list
+[03:17:03] gamemode spectator
+[03:17:21] locate structure iceandfire:fire_dragon_roost
+[03:17:31] locate structure iceandfire:ice_dragon_roost
+[03:17:36] locate structure iceandfire:lightning_dragon_roost
+[03:21:02] gamemode creative
+[03:22:03] locate structure iceandfire:fire_dragon_roost
+[03:22:06] locate structure iceandfire:lightning_dragon_roost
+[03:22:11] locate structure iceandfire:ice_dragon_roost
+[03:22:25] chunky start minecraft:overworld square 0 0 8000 8000
+[03:22:30] chunky confirm
+[08:21:51] gamemode spectator
+[08:22:10] dh config generation.enable true
+[08:23:09] locate structure iceandfire:fire_dragon_roost
+[08:23:15] locate structure iceandfire:ice_dragon_roost
+[08:23:21] locate structure iceandfire:lightning_dragon_cave
+[08:23:24] locate structure iceandfire:lightning_dragon_roost
+[08:23:52] tp 5000 100 5000
+[08:23:59] tp 5000 100 -5000
+[08:24:21] tp -5000 100 5000
+[08:24:28] tp -5000 100 -5000
+[08:27:14] tp @s 2692 ~ -2648
+[08:27:18] tp @s 4464 ~ -3492
+[08:29:11] tp 0 100 0
+[08:29:21] gamemode creative
+[08:34:27] setworldspawn 216 66 -170
+[08:34:32] gamerule spawnRadius 2

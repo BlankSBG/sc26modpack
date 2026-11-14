@@ -1,0 +1,86 @@
+[09:11:19] gamemode creative
+[09:12:48] dh config generation.enable false
+[09:12:59] chunky start minecraft:overworld square 0 0 5000 5000
+[09:14:55] gamemode spectator
+[09:15:05] wits
+[09:15:47] gamemode creative
+[09:16:09] gamemode spectator
+[09:16:11] gamemode creative
+[09:23:32] locate structure betterstrongholds:stronghold
+[09:23:35] tp @s -3952 ~ -2592
+[09:23:39] gamemode spectator
+[09:23:54] gamemode creative
+[09:27:15] gamemode spectator
+[09:27:24] tp 2000 2000
+[09:27:29] tp 2000 100 2000
+[09:27:33] locate structure betterstrongholds:stronghold
+[09:27:37] tp @s -1328 ~ 4576
+[09:28:15] gamemode creative
+[09:28:49] gamemode spectator
+[09:29:28] wits
+[09:30:46] kill
+[09:31:00] gamemode creative
+[09:31:00] gamemode creative
+[09:48:55] gamerule randomTickSpeed
+[09:48:57] gamerule randomTickSpeed 0
+[09:49:06] gamerule randomTickSpeed 3
+[09:49:10] time set noon
+[09:59:52] chunky progress
+[10:00:07] dh config generation.enable true
+[11:37:44] gamemode spectator
+[11:38:32] gamemode creative
+[11:40:50] gamemode spectator
+[11:40:57] gamemode creative
+[11:42:34] gamemode spectator
+[11:42:46] gamemode creative
+[11:43:22] gamemode spectator
+[11:43:35] sable paused
+[11:43:41] gamemode creative
+[11:43:44] sable paused
+[11:44:15] gamemode spectator
+[11:44:26] sable paused
+[11:44:33] gamemode creative
+[11:44:41] sable paused
+[11:45:16] tp 0 100 0
+[11:45:33] gamemode spectator
+[11:45:41] time set 0
+[11:46:43] sable teleport @e
+[11:46:46] sable teleport @e ~ ~ ~
+[11:46:48] sable teleport @e ~ ~ ~
+[11:47:09] sable teleport @e ~ ~ ~
+[11:47:29] gamemode creative
+[11:48:19] sable teleport @e ~ ~ ~
+[11:48:21] sable teleport @e ~ ~ ~
+[11:48:24] sable paused
+[11:48:37] sable paused
+[11:50:04] sable teleport @e ~ ~ ~
+[11:50:41] gamemode spectator
+[11:50:52] gamemode creative
+[11:50:55] gamemode spectator
+[11:50:58] gamemode creative
+[12:03:26] stop
+[12:37:59] whitelist reload
+[12:38:02] whitelist list
+[12:38:27] whitelist remove unknown
+[12:38:33] whitelist remove Jman7972
+[13:53:03] time set day
+[13:53:11] weather clear
+[13:53:24] gamerule doWeatherCycle false
+[13:54:29] time set noon
+[13:54:32] time set nighjt
+[13:54:34] time set night
+[13:54:40] time set 10000
+[13:54:43] time set 12000
+[13:54:59] gamerule doDaylightCycle false
+[13:55:01] time set 12000
+[13:55:44] setworldspawn ~ ~ ~
+[13:55:47] kill
+[13:56:07] setworldspawn ~ ~ ~
+[13:56:33] kill
+[14:06:29] time set noon
+[14:06:39] time set midnight
+[14:13:02] reload
+[14:17:57] stop
+[14:21:57] gamemode spectator
+[14:22:13] dh config generation.enable false
+[14:22:25] chunky start minecraft:overworld square 0 0 5000 5000

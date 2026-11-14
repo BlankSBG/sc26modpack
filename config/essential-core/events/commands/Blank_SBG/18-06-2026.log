@@ -1,0 +1,65 @@
+[00:01:12] gamemode survival
+[18:55:11] gamemode creative
+[19:10:15] time set night
+[19:10:17] time set noon
+[19:13:09] ftblibrary clientconfig
+[19:32:34] gamemode creative L5kywa1ker
+[19:34:49] deop Blank_SBG
+[19:35:03] maintenance off
+[19:35:59] deop Blank_SBG
+[19:36:20] luckperms editor
+[19:42:00] time set 0
+[19:54:32] time set noon
+[20:15:15] reload
+[20:16:01] kubejs errors server
+[20:19:15] luckperms editor
+[20:42:06] gamemode spectator
+[20:42:11] gamemode creative
+[20:42:17] sable teleport @r
+[20:42:20] sable teleport @r ~ ~ ~
+[21:06:13] reload
+[21:06:34] kubejs errors server
+[21:06:51] reload
+[21:10:13] kill @e[type=minecraft:warden]
+[21:10:23] kill @e[type=iceandfire:cyclops]
+[21:16:30] gamemode spectator
+[21:16:37] gamemode creative
+[21:26:41] gamemode spectator
+[21:26:44] gamemode creative
+[21:31:19] gamemode spectator
+[21:31:21] gamemode creative
+[21:31:33] gamemode spectator
+[21:31:36] gamemode creative
+[21:48:47] gamemode spectator
+[21:48:50] gamemode creative
+[21:50:01] gamemode spectator
+[21:50:04] gamemode creative
+[21:51:11] gamemode spectator
+[21:51:15] gamemode creative
+[21:52:20] gamemode spectator
+[21:52:30] gamemode creative
+[21:53:24] gamemode spectator
+[21:53:27] gamemode creative
+[21:55:44] gamemode spectator
+[21:55:49] gamemode creative
+[21:58:32] gamemode spectator
+[21:58:43] gamemode creative
+[22:08:50] tp Blank_SBG Krojett
+[22:09:12] gamemode spectator
+[22:09:21] gamemode creative
+[22:15:25] execute as @a if score @s playtime matches 36000.. run function currency:give
+[22:17:02] reload
+[22:17:27] reload
+[22:18:33] reload
+[22:18:47] datapack list
+[22:25:39] reload
+[22:26:03] datapack list
+[22:26:32] function currency
+[22:26:53] scoreboard objectives list
+[22:28:19] datapack enable "mod/kubejs"
+[22:28:29] datapack list
+[22:28:37] reload
+[22:30:57] scoreboard objectives list
+[22:32:55] scoreboard objectives list
+[23:00:21] gamemode survival
+[23:00:29] gamemode creative

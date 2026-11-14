@@ -1,0 +1,41 @@
+[00:37:12] time set noon
+[00:43:21] gamemode spectator
+[00:43:34] gamemode creative
+[01:06:30] gamemode survival
+[01:06:50] gamemode creative
+[18:32:23] gamemode creative
+[18:33:52] chunky start minecraft:overworld square 0 0 8000 8000
+[19:04:26] kill @e[type=simulated:launched_plunger]
+[19:11:24] dh config generation.enable false
+[19:35:14] kubejs reload
+[19:35:21] kubejs reload server-scripts
+[19:35:27] reload
+[22:14:33] gamemode spectator
+[22:14:47] gamemode creative
+[22:18:57] dh config generation.enable true
+[23:11:42] reload
+[23:14:19] reload
+[23:16:56] gamemode spectator
+[23:17:30] gamemode creative
+[23:18:33] gamemode spectator
+[23:18:38] difficulty
+[23:18:43] time set midnight
+[23:18:50] gamemode creative
+[23:22:02] gamemode spectator
+[23:22:20] gamemode creative
+[23:22:24] gamemode survival
+[23:23:43] gamemode spectator
+[23:23:48] gamemode creative
+[23:24:48] reload
+[23:25:41] gamemode spectator
+[23:26:00] gamemode creative
+[23:26:14] give Blank_SBG minecraft:command_block
+[23:26:19] give Blank_SBG minecraft:command_block
+[23:27:36] gamemode spectator
+[23:27:48] gamemode creative
+[23:29:49] reload
+[23:54:39] gamemode creative
+[23:54:43] gamemode creative
+[23:55:27] gamemode creative
+[23:56:04] gamemode creative
+[23:57:46] gamemode creative testa

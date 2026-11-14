@@ -1,0 +1,3 @@
+[upgrade]
+	#Allows bookmark interaction without installing the Terminal Bookmark Interact Card.
+	allowBookmarkInteractionWithoutUpgrade = false

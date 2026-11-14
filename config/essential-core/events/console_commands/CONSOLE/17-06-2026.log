@@ -1,0 +1,46 @@
+[11:29:28] Command executed by CONSOLE: lis
+[11:29:29] Command executed by CONSOLE: list
+[11:29:43] Command executed by CONSOLE: stop
+[11:29:43] Command executed by CONSOLE: bossbar set essentialcore:pause visible false
+[11:29:43] Command executed by CONSOLE: bossbar remove essentialcore:pause
+[23:26:28] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:28] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:28] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:28] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:28] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:28] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:28] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:28] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:28] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:28] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:28] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:28] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:28] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:29] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:29] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:29] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:29] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:29] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:29] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:29] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:29] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:29] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:29] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:29] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:29] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:29] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:29] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:29] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:29] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:29] Command executed by CONSOLE: summon minecraft:zombie
+[23:26:29] Command executed by CONSOLE: summon minecraft:zombie
+[23:50:54] Command executed by CONSOLE: stop
+[23:50:54] Command executed by CONSOLE: bossbar set essentialcore:pause visible false
+[23:50:54] Command executed by CONSOLE: bossbar remove essentialcore:pause
+[23:53:28] Command executed by CONSOLE: whitelist add Blank_SBG
+[23:53:46] Command executed by CONSOLE: maintenance off
+[23:53:52] Command executed by CONSOLE: whitelist off
+[23:54:34] Command executed by CONSOLE: op Blank_SBG
+[23:55:01] Command executed by CONSOLE: luckperms editor
+[23:56:01] Command executed by CONSOLE: luckperms user Blank_SBG promote tester
+[23:56:40] Command executed by CONSOLE: luckperms user testa promote tester

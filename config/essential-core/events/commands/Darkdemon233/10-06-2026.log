@@ -1,0 +1,7 @@
+[17:05:45] gamemode creative
+[17:07:36] locate structure minecraft:stronghold
+[17:07:45] locate structure betterstrongholds:stronghold
+[17:07:47] tp @s -2336 ~ -1200
+[17:08:11] gamemode spectator
+[17:10:53] gamemode creative
+[17:11:58] gamemode spectator

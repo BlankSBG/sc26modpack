@@ -1,0 +1,49 @@
+[14:01:07] gamemode creative
+[14:01:33] tp 0 100 0
+[14:03:04] ecore status
+[14:12:34] gamemode creative
+[14:13:40] gamemode spectator
+[14:13:46] gamemode creative
+[14:14:12] gamemode spectator
+[14:14:21] gamemode creative
+[14:14:25] gamemode spectator
+[14:15:16] gamemode creative
+[14:15:42] gamemode spectator
+[14:16:16] gamemode creative
+[14:17:37] gamemode spectator
+[14:18:06] gamemode creative
+[14:20:26] gamemode spectator
+[14:26:46] gamemode creative
+[14:46:19] gamemode spectator
+[16:10:06] gamemode creative
+[16:10:22] gamemode spectator
+[16:10:28] gamemode survival
+[16:10:30] gamemode creative
+[16:12:27] gamemode spectator
+[16:12:32] gamemode creative
+[16:14:40] time set 0
+[16:15:38] gamemode spectator
+[16:15:46] gamemode creative
+[16:16:55] gamemode spectator
+[16:17:00] gamemode creative
+[16:17:18] gamemode spectator
+[16:17:21] gamemode creative
+[16:17:38] gamemode spectator
+[16:17:40] gamemode creative
+[16:20:29] gamemode spectator
+[16:20:31] gamemode creative
+[16:22:15] time set midnight
+[16:26:30] gamemode spectator
+[16:26:38] gamemode survival
+[16:26:40] gamemode creative
+[16:27:24] gamemode spectator
+[16:27:39] gamemode survival
+[16:27:41] gamemode creative
+[16:42:48] time set 0
+[16:50:54] sable teleport @e ~ ~ ~
+[16:50:58] sable teleport @v ~ ~ ~
+[16:51:03] sable teleport @r ~ ~ ~
+[16:51:19] gamemode spectator
+[16:51:25] gamemode creative
+[16:59:53] gamemode spectator
+[17:00:52] gamemode creative

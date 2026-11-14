@@ -1,0 +1,18 @@
+{
+	"enabled": true,
+	"doBackup": false,
+	"debug": false,
+	"message": "ACCESS DENIED. AUTHORIZED PERSONNEL ONLY.",
+	"motd": "CURRENTLY FIXING PROBLEMS! CHECK BACK SOON!",
+	"maintenanceIcon": "",
+	"schedule": {
+		"startTime": "",
+		"endTime": "",
+		"disableOnRestart": false,
+		"maintanceNotifyMessage": "Maintenance is starting in %s minute(s)"
+	},
+	"kickOnlinePlayers": true,
+	"configVersion": 4,
+	"allowedUsers": [],
+	"allowedLuckpermsGroups": []
+}

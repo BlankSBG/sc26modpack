@@ -1,0 +1,216 @@
+[17:03:48] gamemode spectator
+[17:03:50] gamemode creative
+[17:11:56] wita
+[17:11:57] wits
+[17:13:28] gamemode spectator
+[17:14:13] wits
+[17:14:17] wits
+[17:14:18] wits
+[17:14:19] wits
+[17:14:19] wits
+[17:14:20] gamemode creative
+[17:14:21] wits
+[17:20:07] dh config generation.enable true
+[17:26:01] heal
+[17:26:24] stop
+[17:28:29] stop
+[18:34:14] starterkit list
+[18:34:30] starterkit help
+[18:34:52] gamemode creative
+[18:37:34] dh config generation.enable false
+[18:37:49] chunky start minecraft:overworld square 0 0 5000 5000
+[18:37:59] starterkit set default
+[18:38:07] starterkit
+[18:38:17] starterkit list
+[18:39:07] starterkit give
+[18:39:10] starterkit
+[18:39:45] starterkit add default
+[18:39:55] kit list
+[18:40:09] kit create_from_player_inv
+[18:40:19] kit create_from_player_inv start * (once only)
+[18:40:26] kit list
+[18:40:34] kit give Blank_SBG start
+[18:40:41] kit show
+[18:40:42] kit show start
+[18:40:49] kit set_autogrant start true
+[18:41:28] kit
+[18:41:41] kit show
+[18:41:45] kit show start
+[18:41:58] kit reset_cooldown start @a
+[18:42:04] kit reset_cooldown start Blank_SBG
+[18:43:28] chunky cancel
+[18:43:31] chunky confirm
+[18:43:37] dh config generation.enable true
+[18:44:07] gamemode spectator
+[18:44:11] time set 0
+[18:44:56] locate structure ae2:meteorite
+[18:45:25] tp @s 1072 ~ 176
+[18:46:07] wits
+[18:47:48] gamemode creative
+[18:53:11] stop
+[19:06:18] kit list
+[19:09:14] gamemode spectator
+[19:10:26] stop
+[19:17:39] locate structure iceandfire:fire_dragon_roost
+[19:17:43] tp @s -2288 ~ 1760
+[19:19:40] locate structure iceandfire:pixie_village
+[19:19:53] tp 0 100 0
+[19:19:55] locate structure iceandfire:pixie_village
+[19:21:25] wits
+[19:22:05] stop
+[19:34:03] dh pregen start minecraft:overworld 0 0 5000
+[19:34:14] gamemode spectator
+[19:39:36] stop
+[19:42:54] wits
+[19:43:06] locate structure iceandfire:fire_dragon_roost
+[19:43:19] gamemode spectator
+[19:44:13] locate biome biomesoplenty:jade_cliffs
+[19:44:16] tp @s -1314 216 -45
+[19:44:44] locate biome
+[19:45:16] stop
+[19:47:46] gamemode spectator
+[19:48:07] locate biome biomesoplenty:jade_cliffs
+[19:49:05] locate biome biomesoplenty:volcano
+[19:49:11] tp @s 3436 421 -1466
+[19:50:11] locate biome biomesoplenty:crag
+[19:50:18] tp @s 2347 458 -1004
+[19:50:42] locate biome #biomesoplenty:has_wolf_variant/spectral
+[19:50:44] tp @s 2339 474 -1319
+[19:50:58] gamemode creative
+[19:51:42] gamemode adventure
+[19:51:43] gamemode spectator
+[19:55:08] gamemode spectator
+[19:55:35] locate biome biomesoplenty:crag
+[19:55:38] tp @s 1270 127 -2080
+[19:56:57] locate biome biomesoplenty:jade_cliffs
+[19:57:04] locate biome biomesoplenty:jade_cliffs
+[19:57:07] tp 0 100 0
+[19:57:08] locate biome biomesoplenty:jade_cliffs
+[19:57:11] tp @s 352 100 -1344
+[19:59:45] gamemode survival
+[20:00:00] gamemode spectator
+[20:09:07] gamemode spectator
+[20:13:30] gamemode spectator
+[20:13:55] locate biome biomesoplenty:jade_cliffs
+[20:13:58] tp @s -409 145 747
+[20:14:41] locate biome minecraft:jagged_peaks
+[20:14:44] tp @s -927 156 1482
+[20:15:12] locate biome biomesoplenty:crag
+[20:15:17] tp @s 1765 187 1745
+[20:23:46] tp @s -927 156 1482
+[20:23:48] locate biome biomesoplenty:crag
+[20:23:53] tp @s 1761 156 1770
+[20:24:05] locate biome minecraft:jagged_peaks
+[20:24:36] locate biome minecraft:river
+[20:24:38] tp @s 1153 358 1194
+[20:24:49] tp 3000 100 4000
+[20:24:54] locate biome minecraft:river
+[20:25:37] locate biome minecraft:jagged_peaks
+[20:25:40] tp @s 1848 131 1499
+[20:25:46] tp @s -312 ~ 5176
+[20:26:19] gamemode creative
+[20:33:19] gamemode spectator
+[20:33:20] gamemode creative
+[20:36:29] gamemode spectator
+[20:36:46] gamemode creative
+[20:41:48] gamemode spectator
+[20:42:04] stop
+[20:50:10] gamemode spectator
+[20:50:46] locate biome minecraft:jagged_peaks
+[20:50:50] tp @s 1173 179 -2200
+[20:53:45] tp @s 2966 ~ -3154
+[20:53:55] tp @s 1332 ~ 1132
+[20:57:33] gamemode creative
+[20:57:36] gamemode spectator
+[20:57:38] gamemode creative
+[20:58:14] gamemode spectator
+[21:02:31] time set day
+[21:04:05] time set night
+[21:04:12] time set 12000
+[21:04:15] time set 12500
+[21:04:20] time set 12000
+[21:10:39] time set day
+[21:17:16] gamemode creative
+[21:17:17] gamemode spectator
+[21:17:19] gamemode creative
+[21:17:22] gamemode survival
+[21:18:01] gamemode spectator
+[21:20:26] tp @s 3528 ~ 2136
+[21:22:43] stop
+[21:24:39] gamemode spectator
+[21:25:14] gamemode creative
+[21:27:36] gamemode spectator
+[21:27:40] gamemode creative
+[21:31:12] gamemode spectator
+[21:31:22] gamemode creative
+[21:31:23] gamemode spectator
+[21:31:25] gamemode creative
+[21:54:38] gamemode spectator
+[21:55:34] gamemode creative
+[22:07:06] gamemode spectator
+[22:10:12] gamemode creative
+[22:16:39] gamemode spectator
+[22:17:07] gamemode creative
+[22:24:29] tp Blank_SBG ColtonAnder
+[22:24:43] wits
+[22:26:07] gamemode survival
+[22:26:08] gamemode creative
+[22:26:12] gamemode survival
+[22:26:15] gamemode creative
+[22:26:20] gamemode survival
+[22:26:27] tp Blank_SBG ColtonAnder
+[22:26:28] gamemode creative
+[22:31:46] stop
+[22:33:23] gamemode spectator
+[22:36:21] luckperms user Can_O_Chesse promote tester
+[22:36:33] gamemode spectator
+[22:36:41] gamemode creative
+[22:42:21] locate biome minecraft:jagged_peaks
+[22:42:24] gamemode spectator
+[22:42:36] gamemode creative
+[22:46:27] tp Blank_SBG Can_O_Chesse
+[22:46:33] tp Blank_SBG Can_O_Chesse
+[22:47:08] tp @s 178 63.5 348
+[22:48:46] tp Can_O_Chesse Blank_SBG
+[22:52:12] stop
+[22:57:31] tp 0 100 0
+[22:57:34] gamemode spectator
+[23:02:40] gamemode spectator
+[23:02:52] tp 0 200 0
+[23:05:10] luckperms editor
+[23:12:57] gamemode spectator
+[23:13:10] stop
+[23:15:26] rtp
+[23:15:36] rtp
+[23:15:52] gamemode spectator
+[23:16:23] tp 0 100 0
+[23:18:35] gamemode spectator
+[23:21:24] kill
+[23:22:05] gamemode creative
+[23:22:35] seed
+[23:22:58] gamemode spectator
+[23:25:10] dh pregen start minecraft:overworld 0 0 2500
+[23:27:01] dh pregen stop
+[23:27:10] dh config generation.enable false
+[23:27:20] chunky start minecraft:overworld square 0 0 5000 5000
+[23:31:26] reload
+[23:32:48] chunky pause
+[23:32:54] dh config generation.enable true
+[23:33:06] dh config generation.enable
+[23:33:40] locate biome minecraft:jagged_peaks
+[23:33:47] tp @s 2028 257 2352
+[23:34:26] locate biome biomesoplenty:jade_cliffs
+[23:34:33] tp @s 3048 193 4597
+[23:34:50] tp 0 100 0
+[23:35:17] locate biome biomesoplenty:crag
+[23:35:20] tp @s 1859 269 -721
+[23:35:28] locate biome biomesoplenty:jade_cliffs
+[23:35:32] tp @s 2910 269 -2127
+[23:36:12] stop
+[23:50:43] gamemode spectator
+[23:50:58] dh config generation.enable false
+[23:51:07] chunky start minecraft:overworld square 0 0 5000 5000
+[23:51:10] chunky confirm
+[23:53:45] stop
+[23:57:28] kill
+[23:59:12] gamemode spectator
