@@ -281,6 +281,7 @@ recipe.shaped(
 
 // change enriched diamond to require dust
 recipe.remove({id: 'mekanism:enriching/enriched/diamond'})
+recipe.remove({id: 'mekanism:processing/diamond/from_dust'})
 recipe.recipes.mekanism.enriching('mekanism:enriched_diamond', 'mekanism:dust_diamond')
 
 // energy tablet require electrum wire
@@ -786,5 +787,40 @@ recipe.shaped(
         S: 'mekanism:steel_casing'
     }
 )
+
+// Ion thruster requires propulsion Ion thruster
+recipe.remove({id: 'fluxnautics:ion_thruster'})
+recipe.shaped(
+    Item.of('fluxnautics:ion_thruster'),
+    [
+        'DLD',
+        'LTL',
+        'DLD',
+    ],
+    {
+        D: 'mekanism:enriched_diamond',
+        L: 'mekanism:laser',
+        T: 'createpropulsion:ion_thruster'
+    }
+)
+
+// Spatial anchor requires AE quantum plate
+recipe.remove({id: 'fluxnautics:spatial_anchor'})
+recipe.shaped(
+    Item.of('fluxnautics:spatial_anchor'),
+    [
+        'SQS',
+        'UAU',
+        'IQI'
+    ],
+    {
+        S: 'fluxnautics:stabilizer',
+        Q: 'advanced_ae:quantum_alloy_plate',
+        U: 'mekanism:ultimate_control_circuit',
+        A: 'fluxnautics:anti_grav',
+        I: 'fluxnautics:inertia_dampener'
+    }
+)
+
 
 });

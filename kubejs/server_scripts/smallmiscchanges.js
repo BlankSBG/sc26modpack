@@ -119,4 +119,20 @@ recipe.shaped(
     }
 )
 
+// enderstaff
+recipe.remove({id: 'grappling_hook_neo:launcher'})
+recipe.shaped(
+    Item.of('grappling_hook_neo:launcheritem'),
+    [
+        '  E',
+        ' I ',
+        'S  '
+    ],
+    {
+        E: 'minecraft:ender_eye',
+        I: 'createaddition:iron_rod',
+        S: 'mekanism:nugget_steel'
+    }
+)
+
 })

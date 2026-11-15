@@ -1,0 +1,24 @@
+#Client-side settings for the ion thruster renderer
+[thruster_renderer]
+	#Multiplier on plume length (0 hides plumes entirely)
+	# Default: 1.0
+	# Range: 0.0 ~ 4.0
+	plumeIntensity = 1.0
+	#How quickly the plume length approaches the actual thrust level
+	# Default: 0.05
+	# Range: 0.005 ~ 1.0
+	plumeChaseSpeed = 0.05
+	#Master toggle for the thruster trail renderer
+	trailsEnabled = true
+	#Seconds a trail sample stays alive, which sets the emergent trail length
+	# Default: 2.0
+	# Range: 0.25 ~ 8.0
+	trailLifetime = 2.0
+	#Multiplier on the trail cross-section size
+	# Default: 1.0
+	# Range: 0.1 ~ 4.0
+	trailWidthScale = 1.0
+	#0 = ribbon, 1 = rect, 2 = profile
+	# Default: 2
+	# Range: 0 ~ 2
+	trailShape = 2

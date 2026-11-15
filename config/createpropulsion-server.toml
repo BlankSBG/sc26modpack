@@ -99,7 +99,7 @@
 	# Range: 0.0 ~ 1.5
 	nozzleOffsetFromCenter = 0.45
 	#If true, atmospheric pressure affects thruster output at altitude.
-	useAtmosphericPressure = false
+	useAtmosphericPressure = true
 	#Strength of atmospheric pressure influence. 1.0 = full effect, 0.0 = no effect.
 	# Default: 1.0
 	# Range: 0.0 ~ 2.0

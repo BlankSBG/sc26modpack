@@ -274,6 +274,10 @@ chunk_rebuild_scheduler = "culling"
 			[light_sources.settings.entities.miapi]
 				thrown_item = true
 
+			[light_sources.settings.entities.create_high_seas]
+				helm_seat = true
+				buoy_seat = true
+
 			[light_sources.settings.entities.aeronautics]
 				propeller_bearing_contraption = true
 				gust = true
@@ -318,6 +322,10 @@ chunk_rebuild_scheduler = "culling"
 			[light_sources.settings.entities.etched]
 				jukebox_minecart = true
 
+			[light_sources.settings.entities.scriptor]
+				colorful_sheep = true
+				projectile = true
+
 			[light_sources.settings.entities.gravestone]
 				player_ghost = true
 
@@ -361,6 +369,7 @@ chunk_rebuild_scheduler = "culling"
 				fang_swirl = true
 				summoned_sword = true
 				eldritch_blast = true
+				scapegoat = true
 				devour_jaw = true
 				blood_slash = true
 				thrown_item = true
@@ -369,12 +378,14 @@ chunk_rebuild_scheduler = "culling"
 				firefly_swarm = true
 				cryomancer = true
 				wisp = true
+				echoing_sword = true
 				portal = true
 				electrocute = true
 				pyromancer = true
 				citadel_keeper = true
 				small_magic_arrow = true
 				catacombs_zombie = true
+				echoing_arrow = true
 				fire_breath = true
 				firebolt = true
 				frozen_humanoid = true
@@ -455,6 +466,9 @@ chunk_rebuild_scheduler = "culling"
 				painting = true
 				graffiti = true
 				glow_painting = true
+
+			[light_sources.settings.entities.strawstatues]
+				straw_statue = true
 
 			[light_sources.settings.entities.xercapaint]
 				canvas = true
@@ -666,6 +680,9 @@ chunk_rebuild_scheduler = "culling"
 			[light_sources.settings.entities.dummmmmmy]
 				target_dummy = true
 
+			[light_sources.settings.entities.fluxnautics]
+				meka_robit = true
+
 			[light_sources.settings.entities.twilightforest]
 				slider = true
 				quest_ram = true
@@ -764,6 +781,18 @@ chunk_rebuild_scheduler = "culling"
 				cannon_boat = true
 				rope_arrow = true
 				slimeball_projectile = true
+
+			[light_sources.settings.entities.createbionics]
+				organ = true
+				shark = true
+				anole = true
+				stalker_captain = true
+				golem = true
+				matchbox = true
+				stalker = true
+				oxhauler = true
+				seeker = true
+				replete = true
 
 			[light_sources.settings.entities.offroad]
 				borehead_contraption_entity = true

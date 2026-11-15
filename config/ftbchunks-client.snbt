@@ -138,46 +138,46 @@
 		# Default: true
 		entity_heads: false
 		entity_icon: {
-			"aquaculture:jellyfish": false
-			"minecraft:sheep": true
-			"ars_nouveau:whirlisprig": true
-			"minecraft:trader_llama": true
-			"minecraft:enderman": true
-			"minecraft:skeleton": true
+			"minecraft:horse": true
+			"minecraft:glow_squid": true
+			"mekanismadditions:baby_skeleton": true
+			"aquaculture:synodontis": false
 			"quark:stoneling": true
-			"minecraft:donkey": true
-			"minecraft:bee": true
+			"minecraft:tropical_fish": false
+			"aquaculture:bayad": false
+			"aquaculture:brown_trout": false
+			"ars_nouveau:drygmy": true
+			"minecraft:zombie": true
+			"minecraft:cow": true
+			"aquaculture:gar": false
+			"minecraft:cod": false
+			"iceandfire:sea_serpent": true
+			"quark:toretoise": true
+			"minecraft:squid": true
+			"mekanismadditions:baby_creeper": true
+			"aquaculture:jellyfish": false
+			"minecraft:creeper": true
+			"irons_spellbooks:necromancer": true
+			"minecraft:bat": true
+			"ars_nouveau:whirlisprig": true
+			"iceandfire:pixie": true
 			"minecraft:pig": true
 			"ars_nouveau:starbuncle": true
-			"aquaculture:gar": false
-			"mekanismadditions:baby_skeleton": true
-			"ars_nouveau:drygmy": true
-			"aquaculture:perch": false
+			"minecraft:skeleton": true
+			"minecraft:enderman": true
+			"minecraft:zombie_villager": true
 			"minecraft:chicken": true
-			"minecraft:glow_squid": true
-			"minecraft:horse": true
-			"irons_spellbooks:necromancer": true
-			"minecraft:zombie": true
-			"minecraft:tropical_fish": false
-			"quark:toretoise": true
-			"mekanismadditions:baby_creeper": true
 			"aquaculture:minnow": false
-			"minecraft:bat": true
-			"minecraft:creeper": true
-			"aquaculture:bluegill": false
+			"minecraft:sheep": true
+			"aquaculture:perch": false
+			"minecraft:donkey": true
+			"minecraft:bee": true
+			"minecraft:trader_llama": true
 			"aquaculture:atlantic_herring": false
 			"minecraft:wolf": true
-			"minecraft:zombie_villager": true
-			"aquaculture:brown_trout": false
-			"minecraft:squid": true
-			"iceandfire:sea_serpent": true
-			"aquaculture:synodontis": false
-			"iceandfire:pixie": true
+			"aquaculture:bluegill": false
 			"aquaculture:boulti": false
 			"minecraft:spider": true
-			"minecraft:cod": false
-			"aquaculture:bayad": false
-			"minecraft:cow": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

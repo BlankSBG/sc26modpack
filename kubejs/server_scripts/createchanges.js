@@ -15,6 +15,11 @@ recipe.remove({id: 'createaddition:compacting/seed_oil'})
 recipe.remove({id: 'createbigcannons/mixing/alloy_bronze_brass'})
 recipe.remove({id: 'createbigcannons/mixing/alloy_bronze_tinless'})
 
+// remove propulsion burner and stirling engine
+recipe.remove({id: 'createpropulsion:crafting/liquid_burner'})
+recipe.remove({id: 'createpropulsion:crafting/solid_burner'})
+recipe.remove({id: 'createpropulsion:crafting/stirling_engine'})
+
 // steam engine require precision mech
 recipe.remove({id: 'create:crafting/kinetics/steam_engine'})
 recipe.shaped(
@@ -162,6 +167,7 @@ recipe.remove({id: 'createpropulsion:mixing/coral'})
 recipe.remove({id: 'createpropulsion:crafting/cable'})
 recipe.remove({id: 'createpropulsion:crafting/coral_generator'})
 recipe.remove({id: 'createpropulsion:crafting/vector_thruster'})
+recipe.remove({id: 'createpropulsion:crafting/cable_relay'})
 recipe.shaped(
     Item.of('createpropulsion:vector_thruster'),
     [
@@ -210,5 +216,17 @@ recipe.shaped(
     }
 )
 
+// copper and tin to dust using crushing wheels
+recipe.recipes.create.crushing('mekanism:dust_copper', 'minecraft:copper_ingot').processingTime(100)
+recipe.recipes.create.crushing('mekanism:dust_tin', 'mekanism:ingot_tin').processingTime(100)
+
+// add bronze dust recipe
+recipe.shapeless(
+  Item.of('mekanism:dust_bronze', 4), 
+  [
+    'mekanism:dust_tin',
+    '3x mekanism:dust_copper'
+  ]
+)
 
 })

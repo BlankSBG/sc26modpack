@@ -73,6 +73,12 @@
 			mining = true
 			sorting = true
 
+		[types.wood_type.createdieselgenerators]
+			chip_wood = true
+
+		[types.wood_type.minecraft]
+			pale_oak = true
+
 		[types.leaves_type.biomesoplenty]
 			null = true
 			origin = true
@@ -128,6 +134,9 @@
 
 		[types.leaves_type.ars_elemental]
 			yellow_archwood = true
+
+		[types.leaves_type.minecraft]
+			pale_oak = true
 
 #Disables specific entries
 [entries]
@@ -298,6 +307,7 @@
 			banister = true
 			hollow_log_climbable = true
 			hollow_log = true
+			drying_rack = true
 
 		[entries.wood_type.farmersdelight]
 			cabinet = true
@@ -305,6 +315,9 @@
 		[entries.wood_type.create]
 			window = true
 			window_pane = true
+
+		[entries.wood_type.friendsandfoes]
+			beehive = true
 
 		[entries.leaves_type.quark]
 			hedge = true

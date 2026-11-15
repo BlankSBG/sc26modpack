@@ -54,6 +54,19 @@
 	# Default: 2400
 	# Range: 20 ~ 36000
 	dockIdleTimeoutTicks = 2400
+	#Recorded route distance in blocks kept clear around a reserved dock.
+	#Incoming ships queue before this much inbound path remains to the docking stop; the holder releases after clearing this much outbound path after the stop.
+	# Default: 80.0
+	# Range: 1.0 ~ 512.0
+	dockReservationClearanceDistance = 80.0
+	#Keep Airship Station chunks force-loaded so route starts, docking, and stop context remain available even when players move away.
+	#Disable this if you prefer to manage loading with another chunk-loader mod.
+	forceLoadStationChunks = true
+	#Extra station-centered chunk radius to temporarily force-load while a ship is docking.
+	#0 loads only the station chunk, 1 loads a 3x3 chunk square, and 2 loads a 5x5 chunk square.
+	# Default: 1
+	# Range: 0 ~ 2
+	stationInteractionChunkRadius = 1
 
 [limits]
 	#Maximum number of simultaneously active automated vehicles per player.
@@ -66,5 +79,21 @@
 	requireCrouchToBreakRouteBlocks = true
 
 [debug]
-	#Enable verbose automated logistics debug logging.
+	#Master switch for automated logistics debug logging.
+	#When false, all category debug logs below are disabled.
 	debugLogging = false
+	#Enable playback/runtime debug logs, including unloaded-transit progress and restore.
+	#Only used when debugLogging is true.
+	playback = true
+	#Enable low-level vehicle/Sable controller debug logs.
+	#Only used when debugLogging is true.
+	vehicle = true
+	#Enable docking connector discovery and docking-runtime debug logs.
+	#Only used when debugLogging is true.
+	docking = true
+	#Enable cargo endpoint, cargo wait, and cargo saved-data debug logs.
+	#Only used when debugLogging is true.
+	cargo = true
+	#Enable station/transponder menu, sync, and state-refresh debug logs.
+	#Only used when debugLogging is true.
+	uiSync = true
