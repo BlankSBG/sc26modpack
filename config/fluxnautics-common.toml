@@ -1,0 +1,247 @@
+#Settings for configuring Thruster Array
+[thruster_array]
+	#Propulsion pN for thrust value of 1.0
+	# Default: 500.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	basePropulsion = 500.0
+	#Base joules per tick per thruster, will be multiplied by the thrust level
+	# Default: 120
+	# Range: 0 ~ 9223372036854775807
+	joulesPerTick = 120
+	#Chemical per tick per thruster, will be multiplied by the thrust level
+	# Default: 1
+	# Range: 0 ~ 9223372036854775807
+	chemicalsPerTick = 1
+
+	[thruster_array.boosters]
+		#Thrust Value added by Basic booster
+		# Default: 4.0
+		# Range: 1.0 ~ 9.223372036854776E18
+		basicThrustBudget = 4.0
+		#Thrust Value added by Advanced booster
+		# Default: 8.0
+		# Range: 1.0 ~ 9.223372036854776E18
+		advancedThrustBudget = 8.0
+		#Thrust Value added by Elite booster
+		# Default: 16.0
+		# Range: 1.0 ~ 9.223372036854776E18
+		eliteThrustBudget = 16.0
+		#Thrust Value added by Ultimate booster
+		# Default: 32.0
+		# Range: 1.0 ~ 9.223372036854776E18
+		ultimateThrustBudget = 32.0
+		#Thrust Value added by Creative booster
+		# Default: 1024.0
+		# Range: 1.0 ~ 9.223372036854776E18
+		creativeThrustBudget = 1024.0
+
+#Settings for configuring Field Drive
+[field_drive]
+	#Maximum impulse allowed for the Field Drive
+	# Default: 1000.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	impulseMultCap = 1000.0
+	#Base joule capacity
+	# Default: 1000000000000
+	# Range: 800000000 ~ 9223372036854775807
+	jouleBaseStorage = 1000000000000
+	#Base joules per impulse mult point
+	# Default: 100
+	# Range: 0 ~ 9223372036854775807
+	joulesPerImpulseMult = 100
+	#Base chemicals per impulse mult point
+	# Default: 1
+	# Range: 0 ~ 10
+	chemicalsPerImpulseMult = 1
+	#Joules per mass multiplier (How much the mass of the sublevel affects energy cost)
+	# Default: 0.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	joulesPerMassMult = 0.5
+
+#Settings for configuring Spatial Anchor
+[spatial_anchor]
+	#Joules per mass multiplier (How much the mass of the sublevel affects energy cost)
+	# Default: 0.25
+	# Range: 0.0 ~ 1.7976931348623157E308
+	joulesPerMassMult = 0.25
+
+#Settings for configuring Anti Grav
+[anti_grav]
+	#Joules per mass multiplier (How much the mass of the sublevel affects energy cost)
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	joulesPerMassMult = 1.0
+	#The magic fudge number to make gravity negation behave better, tweak this if your stuff keeps floating away or not staying in the air despite antigrav working.
+	# Default: 12.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	calibrationValue = 12.0
+
+#Settings for configuring Forcefield
+[forcefield]
+
+	[forcefield.properties]
+		#How big the field bubble can be enlarged to in config.
+		# Default: 128.0
+		# Range: 2.0 ~ 512.0
+		padding = 128.0
+		#How far into the field sublevels must venture before they are teleported out.
+		# Default: 16.0
+		# Range: 0.0 ~ 512.0
+		teleportThreshold = 16.0
+
+	[forcefield.usage]
+		#Passive Joule multiplier (volume(field) * passive_mult + (mass * per_mass_mult)/t)
+		# Default: 0.25
+		# Range: 0.0 ~ 1.7976931348623157E308
+		passiveVolumeMultiplier = 0.25
+		#Joule per mass multiplier (How much the mass of the sublevel affects energy cost)
+		# Default: 0.25
+		# Range: 0.0 ~ 1.7976931348623157E308
+		passiveMassMultiplier = 0.25
+		#Joule per entity impact multiplier (How much an entity bouncing off the field costs energy, decays over 1 second)
+		# Default: 500.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		perImpactEntityMult = 500.0
+		#Joule per impact mass multiplier (How much the mass of a colliding sublevel affects impact energy cost, decays over 1 second)
+		# Default: 25.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		perImpactMassMult = 25.0
+		#Speed of Impact multiplier on final cost
+		# Default: 1.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		impactSpeedMult = 1.0
+		#Joule per raycast multiplier (How much cancelling raycasts colliding with field costs, decays over 1 second)
+		# Default: 100.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		perRaycastMult = 100.0
+		#Should raycasts (Level.clip) coming into forcefield be redirected to the edge of the forcefield.
+		redirectRaycasts = true
+		#how many ticks the field should be disabled for after it has been drained of energy or the threshold has been hit
+		# Default: 200
+		# Range: 100 ~ 1728000
+		cooldownTicks = 200
+		#The Overload cooldown is triggered when the rolling impact threshold is hit and follows this formula: `cooldownTicks + ((sqrt(volume(field)) * log(overload_joules) / 10) * overloadCooldownMult)`, 0 would only use cooldownTicks
+		# Default: 1.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		overloadCooldownMult = 1.0
+		#% of field energy buffer to be exhausted in a single rolling window before cooldown is triggered
+		# Default: 1.0
+		# Range: 0.01 ~ 1.7976931348623157E308
+		rollingImpactThreshold = 1.0
+		#how many ticks the rolling impact window should be, bigger window = more damage accumulation, easier to hit threshold, smaller window = less memory allocation harder to break shield
+		# Default: 100
+		# Range: 10 ~ 1000
+		rollingImpactWindow = 100
+		#multiplier applied to laser damage, applicable only if raycasts are redirected and come from a mekanism laser source
+		# Default: 2.0
+		# Range: 0.01 ~ 1.7976931348623157E308
+		laserDirectMult = 2.0
+
+#Settings for configuring Cloak Generator
+[cloak_generator]
+	#Joules per mass multiplier (How much the mass of the sublevel affects energy cost)
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	joulesPerMassMult = 1.0
+	#Decloaker module usage
+	# Default: 10000
+	# Range: 0 ~ 9223372036854775807
+	decloakerModuleUsage = 10000
+
+#Settings for configuring Stabilizer
+[stabilizer]
+	#Passive Joule multiplier (mass * joules_passive_mult)/t
+	# Default: 0.1
+	# Range: 0.0 ~ 1.7976931348623157E308
+	passiveJoulesMult = 0.1
+	#Active Joule multiplier (angular_impulse * joules_active_mult)/t
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	activeJoulesMult = 1.0
+	#Base torque (how much 100% force value is)
+	# Default: 2048.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	baseTorque = 2048.0
+
+#Settings for configuring Conduits
+[conduits]
+	#Maximum length for conduits
+	# Default: 64.0
+	# Range: 8.0 ~ 1.7976931348623157E308
+	maxLength = 64.0
+	#Maximum stretchiness for conduits
+	# Default: 32.0
+	# Range: 80.0 ~ 1.7976931348623157E308
+	maxStretch = 80.0
+
+#Settings for configuring Flux Tether
+[flux_tether]
+	#Base FE per tick for servo work, multiplied by the linear and angular cost factors
+	# Default: 100
+	# Range: 0 ~ 9223372036854775807
+	energyPerTick = 100
+	#FE per second spent just holding a body engaged
+	# Default: 100.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	holdEnergyPerSecond = 100.0
+	#FE per mass block moved per tick while the servo is working
+	# Default: 25.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	workEnergyPerMassBlock = 25.0
+	#FE per unit of inertia rotated per tick while the servo is working
+	# Default: 15.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	workEnergyPerInertiaRad = 15.0
+	#FE per tick the disassembly beam charges when it hits an entity
+	# Default: 64000
+	# Range: 0 ~ 9223372036854775807
+	beamEntityCost = 64000
+	#Damage dealt by the disassembly beam to an entity per tick
+	# Default: 5.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	beamEntityDamage = 5.0
+	#Radius of the disassembly beam's hit box
+	# Default: 0.5
+	# Range: 0.05 ~ 8.0
+	beamRadius = 0.5
+	#Magnetic distance beyond which the tether disassembles the link
+	# Default: 4.0
+	# Range: 1.0 ~ 64.0
+	disassembleThreshold = 4.0
+
+#Settings for configuring the Meka-Robit drone
+[meka_robit]
+	#Energy per block squared of travel, scaled by whether the drone is a swarm member
+	# Default: 50.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	travelEnergyMultiplier = 50.0
+	#How far from the drone an assist mining or attack target may be (server-enforced)
+	# Default: 32.0
+	# Range: 2.0 ~ 64.0
+	assistRange = 32.0
+
+#Settings for configuring Daemon Protocol
+[daemon_protocol]
+	#Radius around the daemon in which its drone patrols for hostiles
+	# Default: 32
+	# Range: 4 ~ 256
+	patrolRange = 32
+	#How long the drone waits between patrol waypoints
+	# Default: 10
+	# Range: 0 ~ 1200
+	patrolWaitTicks = 20
+	#Distance from the daemon beyond which its drone is teleported back home
+	# Default: 64.0
+	# Range: 8.0 ~ 512.0
+	recallDistance = 72.0
+
+#Settings for configuring Inertia Dampener
+[inertia_dampener]
+	#Joules charged per unit of kinetic energy actually removed (or added) by the dampener
+	# Default: 2.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	joulesPerKineticUnit = 2.0
+	#Maximum delta-v per second the dampener can apply on each linear axis
+	# Default: 100.0
+	# Range: 0.01 ~ 1.7976931348623157E308
+	linearCalibration = 100.0

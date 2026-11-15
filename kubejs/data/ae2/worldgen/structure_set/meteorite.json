@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 124895654,
+    "separation": 15,
+    "spacing": 72
+  },
+  "structures": [
+    {
+      "structure": "ae2:meteorite",
+      "weight": 1
+    }
+  ]
+}

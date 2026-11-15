@@ -1,0 +1,23 @@
+{
+	"enabled": false,
+	"doBackup": false,
+	"debug": false,
+	"message": "ACCESS DENIED. AUTHORIZED PERSONNEL ONLY.",
+	"motd": "CURRENTLY FIXING PROBLEMS! CHECK BACK SOON!",
+	"maintenanceIcon": "",
+	"schedule": {
+		"startTime": "",
+		"endTime": "",
+		"disableOnRestart": false,
+		"maintanceNotifyMessage": "Maintenance is starting in %s minute(s)"
+	},
+	"kickOnlinePlayers": true,
+	"configVersion": 4,
+	"allowedUsers": [
+		{
+			"name": "Blank_SBG",
+			"uuid": "2175b660-66e6-4284-ac20-02abd139617c"
+		}
+	],
+	"allowedLuckpermsGroups": []
+}
