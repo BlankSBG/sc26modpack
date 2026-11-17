@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: ""
+	id: "1C38C421F58F3B24"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			id: "minecraft:grass_block"
+		}
+		id: "1DA00726E7D87789"
+		tasks: [{
+			id: "0EEA3BB1F3F25F8A"
+			item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

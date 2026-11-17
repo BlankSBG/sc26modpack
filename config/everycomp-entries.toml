@@ -37,6 +37,10 @@
 			scoria = true
 			scorchia = true
 
+		[types.stone_type.modernfoundry]
+			seared_stone = true
+			scorched_stone = true
+
 		[types.wood_type.ars_nouveau]
 			archwood = true
 
@@ -78,6 +82,12 @@
 
 		[types.wood_type.minecraft]
 			pale_oak = true
+
+		[types.wood_type.modernfoundry]
+			greenheart = true
+			skyroot = true
+			bloodshroom = true
+			enderbark = true
 
 		[types.leaves_type.biomesoplenty]
 			null = true
@@ -137,6 +147,11 @@
 
 		[types.leaves_type.minecraft]
 			pale_oak = true
+
+		[types.leaves_type.modernfoundry]
+			earth_slime = true
+			sky_slime = true
+			ender_slime = true
 
 #Disables specific entries
 [entries]

@@ -76,6 +76,9 @@
 		[types.wood_type.createdieselgenerators]
 			chip_wood = true
 
+		[types.wood_type.minecraft]
+			pale_oak = true
+
 		[types.leaves_type.biomesoplenty]
 			null = true
 			origin = true
@@ -131,6 +134,9 @@
 
 		[types.leaves_type.ars_elemental]
 			yellow_archwood = true
+
+		[types.leaves_type.minecraft]
+			pale_oak = true
 
 #Disables specific entries
 [entries]

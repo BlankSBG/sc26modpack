@@ -1,0 +1,206 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: ""
+	icon: {
+		id: "create:water_wheel"
+	}
+	id: "6B6358662621BA57"
+	images: [ ]
+	order_index: 1
+	quest_links: [{
+		id: "10702CF8000F30AD"
+		linked_quest: "268F6ECBFBE1B5BF"
+		shape: "gear"
+		size: 1.5d
+		x: 6.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			id: "7C50AC59B085BE45"
+			tasks: [{
+				id: "25A665BA3F4DDF4F"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"67DD6DD34C781016"
+				"3A6458AABD3B4F2B"
+			]
+			id: "6B60335331E859F2"
+			tasks: [
+				{
+					id: "5CD00E98DC3BAB2C"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+				{
+					id: "68003D5B66059ED9"
+					item: { count: 1, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B60335331E859F2"]
+			id: "4AEF9040CD9D104E"
+			tasks: [
+				{
+					id: "547780DA533C86D3"
+					item: { count: 1, id: "create:brass_ingot" }
+					type: "item"
+				}
+				{
+					id: "0037CE32A3E76B77"
+					item: { count: 1, id: "create:polished_rose_quartz" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C50AC59B085BE45"]
+			id: "3A6458AABD3B4F2B"
+			tasks: [
+				{
+					id: "40768115AA2E03EF"
+					item: { count: 1, id: "create:mechanical_press" }
+					type: "item"
+				}
+				{
+					id: "3A595D0AEC2265F2"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					id: "34C6B6AF02EBDAEB"
+					item: { count: 1, id: "createaddition:rolling_mill" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C42C8CA1C34878A"]
+			id: "1AD920D6F7D46226"
+			tasks: [{
+				id: "37A62B36255CD1F8"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4AEF9040CD9D104E"]
+			id: "2C42C8CA1C34878A"
+			tasks: [{
+				id: "0998244E37F9EB08"
+				item: { count: 1, id: "create:deployer" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "67DD6DD34C781016"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "3C881E9173794E0D"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C50AC59B085BE45"]
+			dependency_requirement: "one_completed"
+			id: "6787F023170CC550"
+			tasks: [{
+				id: "0F82BF9C14483EB7"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4AEF9040CD9D104E"]
+			id: "52DEA452C2672EAC"
+			tasks: [{
+				id: "1C371587DCEAEAE7"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["52DEA452C2672EAC"]
+			id: "40236BF34381CBB5"
+			tasks: [{
+				id: "2ADBE2CDDE19DE2E"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "3F92232E49CD83B8"
+			tasks: [{
+				id: "0ADDBE9D7B078B57"
+				item: { count: 1, id: "createdieselgenerators:diesel_engine" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A6458AABD3B4F2B"]
+			id: "51BF87F730B22BE4"
+			tasks: [{
+				id: "0E2DB5A00DF1ED8E"
+				item: { count: 1, id: "simulated:engine_assembly" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"51BF87F730B22BE4"
+				"6787F023170CC550"
+			]
+			id: "09F195F6201B5CB9"
+			tasks: [{
+				id: "0C852A612CFE5C02"
+				item: { count: 1, id: "simulated:red_portable_engine" }
+				type: "item"
+			}]
+			x: 0.7806122448979593d
+			y: 2.739795918367328d
+		}
+		{
+			dependencies: ["1AD920D6F7D46226"]
+			id: "5EA89EAB1B816E0D"
+			tasks: [{
+				id: "7D987F6AAF0F3212"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+	]
+}

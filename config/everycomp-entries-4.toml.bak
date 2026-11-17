@@ -37,6 +37,12 @@
 			scoria = true
 			scorchia = true
 
+		[types.stone_type.northstar]
+			mars_stone = true
+			moon_stone = true
+			venus_stone = true
+			mercury_stone = true
+
 		[types.wood_type.ars_nouveau]
 			archwood = true
 
@@ -78,6 +84,12 @@
 
 		[types.wood_type.minecraft]
 			pale_oak = true
+
+		[types.wood_type.northstar]
+			wilter = true
+			argyre = true
+			coiler = true
+			calorian = true
 
 		[types.leaves_type.biomesoplenty]
 			null = true
@@ -137,6 +149,11 @@
 
 		[types.leaves_type.minecraft]
 			pale_oak = true
+
+		[types.leaves_type.northstar]
+			wilter = true
+			argyre = true
+			coiler = true
 
 #Disables specific entries
 [entries]

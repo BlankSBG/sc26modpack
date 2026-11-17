@@ -1,6 +1,22 @@
 {
   "_README": "Per-block hull strength. Edit maxWaterDepth (int) and implosionChance (0..1). Keys starting with _ are ignored.",
   "_version": 3,
+  "absolute_kinematics:ball_joint": {
+    "maxWaterDepth": 70,
+    "implosionChance": 0.35
+  },
+  "absolute_kinematics:ball_joint_plate": {
+    "maxWaterDepth": 70,
+    "implosionChance": 0.35
+  },
+  "absolute_kinematics:hinge": {
+    "maxWaterDepth": 70,
+    "implosionChance": 0.35
+  },
+  "absolute_kinematics:hinge_leaf": {
+    "maxWaterDepth": 70,
+    "implosionChance": 0.35
+  },
   "additionalplacements:advanced_ae.quantum_alloy_slab": {
     "maxWaterDepth": 100,
     "implosionChance": 0.076
@@ -1557,6 +1573,390 @@
     "maxWaterDepth": 56,
     "implosionChance": 0.40540898
   },
+  "additionalplacements:luminax.black_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.black_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.black_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.blue_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.blue_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.blue_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.brown_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.brown_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.brown_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.cyan_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.cyan_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.cyan_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.dim_black_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.dim_black_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.dim_black_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.dim_blue_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.dim_blue_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.dim_blue_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.dim_brown_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.dim_brown_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.dim_brown_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.dim_cyan_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.dim_cyan_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.dim_cyan_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.dim_gray_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.dim_gray_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.dim_gray_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.dim_green_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.dim_green_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.dim_green_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.dim_light_blue_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.dim_light_blue_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.dim_light_blue_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.dim_light_gray_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.dim_light_gray_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.dim_light_gray_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.dim_lime_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.dim_lime_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.dim_lime_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.dim_magenta_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.dim_magenta_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.dim_magenta_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.dim_orange_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.dim_orange_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.dim_orange_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.dim_pink_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.dim_pink_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.dim_pink_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.dim_purple_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.dim_purple_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.dim_purple_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.dim_red_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.dim_red_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.dim_red_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.dim_white_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.dim_white_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.dim_white_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.dim_yellow_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.dim_yellow_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.dim_yellow_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.gray_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.gray_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.gray_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.green_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.green_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.green_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.light_blue_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.light_blue_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.light_blue_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.light_gray_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.light_gray_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.light_gray_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.lime_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.lime_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.lime_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.magenta_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.magenta_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.magenta_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.orange_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.orange_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.orange_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.pink_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.pink_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.pink_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.purple_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.purple_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.purple_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.red_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.red_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.red_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.white_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.white_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.white_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "additionalplacements:luminax.yellow_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:luminax.yellow_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "additionalplacements:luminax.yellow_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
   "additionalplacements:mekanismadditions.aqua_plastic_glow_slab": {
     "maxWaterDepth": 96,
     "implosionChance": 0.15540898
@@ -2648,6 +3048,118 @@
   "additionalplacements:minecraft.yellow_carpet": {
     "maxWaterDepth": 17,
     "implosionChance": 0.585469
+  },
+  "additionalplacements:modernfoundry.blazewood_slab": {
+    "maxWaterDepth": 202,
+    "implosionChance": 0.05
+  },
+  "additionalplacements:modernfoundry.blazewood_stairs": {
+    "maxWaterDepth": 202,
+    "implosionChance": 0.05
+  },
+  "additionalplacements:modernfoundry.bloodshroom_planks_slab": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "additionalplacements:modernfoundry.bloodshroom_planks_stairs": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "additionalplacements:modernfoundry.bloodshroom_pressure_plate": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:modernfoundry.enderbark_planks_slab": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "additionalplacements:modernfoundry.enderbark_planks_stairs": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "additionalplacements:modernfoundry.enderbark_pressure_plate": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:modernfoundry.greenheart_planks_slab": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "additionalplacements:modernfoundry.greenheart_planks_stairs": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "additionalplacements:modernfoundry.greenheart_pressure_plate": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.5344535
+  },
+  "additionalplacements:modernfoundry.nahuatl_slab": {
+    "maxWaterDepth": 202,
+    "implosionChance": 0.05
+  },
+  "additionalplacements:modernfoundry.nahuatl_stairs": {
+    "maxWaterDepth": 202,
+    "implosionChance": 0.05
+  },
+  "additionalplacements:modernfoundry.scorched_bricks_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:modernfoundry.scorched_bricks_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:modernfoundry.scorched_road_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:modernfoundry.scorched_road_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:modernfoundry.seared_bricks_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:modernfoundry.seared_bricks_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:modernfoundry.seared_cobble_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:modernfoundry.seared_cobble_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:modernfoundry.seared_paver_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:modernfoundry.seared_paver_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:modernfoundry.seared_stone_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:modernfoundry.seared_stone_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:modernfoundry.skyroot_planks_slab": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "additionalplacements:modernfoundry.skyroot_planks_stairs": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "additionalplacements:modernfoundry.skyroot_pressure_plate": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.5344535
   },
   "additionalplacements:mowziesmobs.painted_acacia_slab": {
     "maxWaterDepth": 44,
@@ -13981,6 +14493,70 @@
     "maxWaterDepth": 47,
     "implosionChance": 0.330409
   },
+  "additionalplacements:stonezone.c/modernfoundry/cut_scorched_stone_brick_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.c/modernfoundry/cut_scorched_stone_brick_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.c/modernfoundry/cut_scorched_stone_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.c/modernfoundry/cut_scorched_stone_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.c/modernfoundry/cut_seared_stone_brick_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.c/modernfoundry/cut_seared_stone_brick_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.c/modernfoundry/cut_seared_stone_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.c/modernfoundry/cut_seared_stone_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.c/modernfoundry/polished_cut_scorched_stone_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.c/modernfoundry/polished_cut_scorched_stone_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.c/modernfoundry/polished_cut_seared_stone_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.c/modernfoundry/polished_cut_seared_stone_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.c/modernfoundry/small_scorched_stone_brick_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.c/modernfoundry/small_scorched_stone_brick_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.c/modernfoundry/small_seared_stone_brick_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.c/modernfoundry/small_seared_stone_brick_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
   "additionalplacements:stonezone.c/mysticalagriculture/cut_soulstone_brick_slab": {
     "maxWaterDepth": 68,
     "implosionChance": 0.330409
@@ -18452,6 +19028,566 @@
   "additionalplacements:stonezone.rcd/minecraft/sulfur_waves_stairs_connecting": {
     "maxWaterDepth": 47,
     "implosionChance": 0.330409
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_big_tiles_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_big_tiles_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_big_tiles_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_big_tiles_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_bordered_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_bordered_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_bordered_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_bordered_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_brick_pattern_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_brick_pattern_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_brick_pattern_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_brick_pattern_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_brick_paving_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_brick_paving_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_brick_paving_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_brick_paving_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_crushed_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_crushed_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_crushed_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_crushed_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_diagonal_bricks_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_diagonal_bricks_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_diagonal_bricks_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_diagonal_bricks_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_path_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_path_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_path_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_path_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_rotated_bricks_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_rotated_bricks_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_rotated_bricks_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_rotated_bricks_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_slated_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_slated_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_small_bricks_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_small_bricks_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_small_bricks_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_small_bricks_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_small_tiles_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_small_tiles_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_small_tiles_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_small_tiles_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_smooth_brick_paving_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_smooth_brick_paving_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_smooth_brick_paving_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_smooth_brick_paving_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_smooth_large_tiles_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_smooth_large_tiles_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_smooth_large_tiles_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_smooth_large_tiles_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_smooth_rotated_bricks_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_smooth_rotated_bricks_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_smooth_rotated_bricks_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_smooth_rotated_bricks_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_smooth_tiles_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_smooth_tiles_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_smooth_tiles_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_smooth_tiles_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_squares_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_squares_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_squares_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_squares_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_tiles_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_tiles_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_tiles_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_tiles_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_waves_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_waves_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_waves_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/scorched_stone_waves_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_big_tiles_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_big_tiles_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_big_tiles_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_big_tiles_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_bordered_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_bordered_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_bordered_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_bordered_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_brick_pattern_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_brick_pattern_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_brick_pattern_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_brick_pattern_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_brick_paving_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_brick_paving_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_brick_paving_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_brick_paving_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_crushed_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_crushed_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_crushed_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_crushed_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_diagonal_bricks_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_diagonal_bricks_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_diagonal_bricks_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_diagonal_bricks_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_path_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_path_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_path_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_path_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_rotated_bricks_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_rotated_bricks_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_rotated_bricks_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_rotated_bricks_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_slated_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_slated_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_small_bricks_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_small_bricks_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_small_bricks_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_small_bricks_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_small_tiles_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_small_tiles_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_small_tiles_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_small_tiles_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_smooth_brick_paving_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_smooth_brick_paving_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_smooth_brick_paving_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_smooth_brick_paving_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_smooth_large_tiles_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_smooth_large_tiles_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_smooth_large_tiles_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_smooth_large_tiles_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_smooth_rotated_bricks_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_smooth_rotated_bricks_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_smooth_rotated_bricks_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_smooth_rotated_bricks_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_smooth_tiles_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_smooth_tiles_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_smooth_tiles_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_smooth_tiles_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_squares_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_squares_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_squares_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_squares_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_tiles_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_tiles_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_tiles_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_tiles_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_waves_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_waves_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_waves_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "additionalplacements:stonezone.rcd/modernfoundry/seared_stone_waves_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
   },
   "additionalplacements:stonezone.rcd/mysticalagriculture/soulstone_big_tiles_slab": {
     "maxWaterDepth": 68,
@@ -33553,6 +34689,18 @@
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
+  "crystalix:bordered_crystalix_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "crystalix:clear_crystalix_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "crystalix:crystalix_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
   "drivebywire:backup_block": {
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
@@ -33761,6 +34909,38 @@
     "maxWaterDepth": 28,
     "implosionChance": 0.55876356
   },
+  "everycomp:c/modernfoundry/bloodshroom_window": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "everycomp:c/modernfoundry/bloodshroom_window_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "everycomp:c/modernfoundry/enderbark_window": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "everycomp:c/modernfoundry/enderbark_window_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "everycomp:c/modernfoundry/greenheart_window": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "everycomp:c/modernfoundry/greenheart_window_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "everycomp:c/modernfoundry/skyroot_window": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "everycomp:c/modernfoundry/skyroot_window_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
   "everycomp:c/quark/ancient_window": {
     "maxWaterDepth": 28,
     "implosionChance": 0.55876356
@@ -33909,6 +35089,22 @@
     "maxWaterDepth": 28,
     "implosionChance": 0.52299964
   },
+  "everycomp:faf/modernfoundry/bloodshroom_beehive": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.52299964
+  },
+  "everycomp:faf/modernfoundry/enderbark_beehive": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.52299964
+  },
+  "everycomp:faf/modernfoundry/greenheart_beehive": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.52299964
+  },
+  "everycomp:faf/modernfoundry/skyroot_beehive": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.52299964
+  },
   "everycomp:faf/quark/ancient_beehive": {
     "maxWaterDepth": 28,
     "implosionChance": 0.52299964
@@ -34010,6 +35206,22 @@
     "implosionChance": 0.36137056
   },
   "everycomp:fd/minecraft/pale_oak_cabinet": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:fd/modernfoundry/bloodshroom_cabinet": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:fd/modernfoundry/enderbark_cabinet": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:fd/modernfoundry/greenheart_cabinet": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:fd/modernfoundry/skyroot_cabinet": {
     "maxWaterDepth": 44,
     "implosionChance": 0.36137056
   },
@@ -34821,6 +36033,162 @@
     "maxWaterDepth": 44,
     "implosionChance": 0.36137056
   },
+  "everycomp:q/modernfoundry/bloodshroom_bookshelf": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "everycomp:q/modernfoundry/bloodshroom_chest": {
+    "maxWaterDepth": 45,
+    "implosionChance": 0.3497237
+  },
+  "everycomp:q/modernfoundry/bloodshroom_ladder": {
+    "maxWaterDepth": 21,
+    "implosionChance": 0.5463528
+  },
+  "everycomp:q/modernfoundry/bloodshroom_post": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:q/modernfoundry/bloodshroom_vertical_slab": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:q/modernfoundry/earth_slime_leaf_carpet": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "everycomp:q/modernfoundry/ender_slime_leaf_carpet": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "everycomp:q/modernfoundry/enderbark_bookshelf": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "everycomp:q/modernfoundry/enderbark_chest": {
+    "maxWaterDepth": 45,
+    "implosionChance": 0.3497237
+  },
+  "everycomp:q/modernfoundry/enderbark_ladder": {
+    "maxWaterDepth": 21,
+    "implosionChance": 0.5463528
+  },
+  "everycomp:q/modernfoundry/enderbark_post": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:q/modernfoundry/enderbark_vertical_slab": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:q/modernfoundry/greenheart_bookshelf": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "everycomp:q/modernfoundry/greenheart_chest": {
+    "maxWaterDepth": 45,
+    "implosionChance": 0.3497237
+  },
+  "everycomp:q/modernfoundry/greenheart_ladder": {
+    "maxWaterDepth": 21,
+    "implosionChance": 0.5463528
+  },
+  "everycomp:q/modernfoundry/greenheart_post": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:q/modernfoundry/greenheart_vertical_slab": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:q/modernfoundry/hollow_bloodshroom_log": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "everycomp:q/modernfoundry/hollow_enderbark_log": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "everycomp:q/modernfoundry/hollow_greenheart_log": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "everycomp:q/modernfoundry/hollow_skyroot_log": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "everycomp:q/modernfoundry/sky_slime_leaf_carpet": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "everycomp:q/modernfoundry/skyroot_bookshelf": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "everycomp:q/modernfoundry/skyroot_chest": {
+    "maxWaterDepth": 45,
+    "implosionChance": 0.3497237
+  },
+  "everycomp:q/modernfoundry/skyroot_ladder": {
+    "maxWaterDepth": 21,
+    "implosionChance": 0.5463528
+  },
+  "everycomp:q/modernfoundry/skyroot_post": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:q/modernfoundry/skyroot_vertical_slab": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:q/modernfoundry/stripped_bloodshroom_post": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:q/modernfoundry/stripped_enderbark_post": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:q/modernfoundry/stripped_greenheart_post": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:q/modernfoundry/stripped_skyroot_post": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:q/modernfoundry/trapped_bloodshroom_chest": {
+    "maxWaterDepth": 45,
+    "implosionChance": 0.3497237
+  },
+  "everycomp:q/modernfoundry/trapped_enderbark_chest": {
+    "maxWaterDepth": 45,
+    "implosionChance": 0.3497237
+  },
+  "everycomp:q/modernfoundry/trapped_greenheart_chest": {
+    "maxWaterDepth": 45,
+    "implosionChance": 0.3497237
+  },
+  "everycomp:q/modernfoundry/trapped_skyroot_chest": {
+    "maxWaterDepth": 45,
+    "implosionChance": 0.3497237
+  },
+  "everycomp:q/modernfoundry/vertical_bloodshroom_planks": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:q/modernfoundry/vertical_enderbark_planks": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:q/modernfoundry/vertical_greenheart_planks": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:q/modernfoundry/vertical_skyroot_planks": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
   "everycomp:q/twilightforest/beanstalk_leaf_carpet": {
     "maxWaterDepth": 15,
     "implosionChance": 0.6
@@ -35621,6 +36989,118 @@
     "maxWaterDepth": 51,
     "implosionChance": 0.2890562
   },
+  "everycomp:sd/modernfoundry/bloodshroom_full_drawers_1": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/bloodshroom_full_drawers_2": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/bloodshroom_full_drawers_4": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/bloodshroom_half_drawers_1": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/bloodshroom_half_drawers_2": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/bloodshroom_half_drawers_4": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/bloodshroom_trim": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/enderbark_full_drawers_1": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/enderbark_full_drawers_2": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/enderbark_full_drawers_4": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/enderbark_half_drawers_1": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/enderbark_half_drawers_2": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/enderbark_half_drawers_4": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/enderbark_trim": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/greenheart_full_drawers_1": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/greenheart_full_drawers_2": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/greenheart_full_drawers_4": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/greenheart_half_drawers_1": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/greenheart_half_drawers_2": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/greenheart_half_drawers_4": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/greenheart_trim": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/skyroot_full_drawers_1": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/skyroot_full_drawers_2": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/skyroot_full_drawers_4": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/skyroot_half_drawers_1": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/skyroot_half_drawers_2": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/skyroot_half_drawers_4": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
+  "everycomp:sd/modernfoundry/skyroot_trim": {
+    "maxWaterDepth": 51,
+    "implosionChance": 0.2890562
+  },
   "everycomp:sd/quark/ancient_full_drawers_1": {
     "maxWaterDepth": 51,
     "implosionChance": 0.2890562
@@ -36239,6 +37719,86 @@
   },
   "everycomp:tf/minecraft/pale_oak_drying_rack": {
     "maxWaterDepth": 34,
+    "implosionChance": 0.45837092
+  },
+  "everycomp:tf/modernfoundry/bloodshroom_banister": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:tf/modernfoundry/bloodshroom_drying_rack": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.45837092
+  },
+  "everycomp:tf/modernfoundry/enderbark_banister": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:tf/modernfoundry/enderbark_drying_rack": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.45837092
+  },
+  "everycomp:tf/modernfoundry/greenheart_banister": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:tf/modernfoundry/greenheart_drying_rack": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.45837092
+  },
+  "everycomp:tf/modernfoundry/hollow_bloodshroom_log_climbable": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "everycomp:tf/modernfoundry/hollow_bloodshroom_log_horizontal": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "everycomp:tf/modernfoundry/hollow_bloodshroom_log_vertical": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "everycomp:tf/modernfoundry/hollow_enderbark_log_climbable": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "everycomp:tf/modernfoundry/hollow_enderbark_log_horizontal": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "everycomp:tf/modernfoundry/hollow_enderbark_log_vertical": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "everycomp:tf/modernfoundry/hollow_greenheart_log_climbable": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "everycomp:tf/modernfoundry/hollow_greenheart_log_horizontal": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "everycomp:tf/modernfoundry/hollow_greenheart_log_vertical": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "everycomp:tf/modernfoundry/hollow_skyroot_log_climbable": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "everycomp:tf/modernfoundry/hollow_skyroot_log_horizontal": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "everycomp:tf/modernfoundry/hollow_skyroot_log_vertical": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "everycomp:tf/modernfoundry/skyroot_banister": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "everycomp:tf/modernfoundry/skyroot_drying_rack": {
+    "maxWaterDepth": 32,
     "implosionChance": 0.45837092
   },
   "everycomp:tf/quark/ancient_banister": {
@@ -37060,6 +38620,42 @@
   "friendsandfoes:weathered_lightning_rod": {
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
+  },
+  "ftbquests:aux_task_screen": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.55876356
+  },
+  "ftbquests:barrier": {
+    "maxWaterDepth": 275,
+    "implosionChance": 0.05
+  },
+  "ftbquests:detector": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.55876356
+  },
+  "ftbquests:loot_crate_opener": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
+  "ftbquests:screen_1": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.55876356
+  },
+  "ftbquests:screen_3": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.55876356
+  },
+  "ftbquests:screen_5": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.55876356
+  },
+  "ftbquests:screen_7": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.55876356
+  },
+  "ftbquests:stage_barrier": {
+    "maxWaterDepth": 275,
+    "implosionChance": 0.05
   },
   "grappling_hook_neo:block_grapple_modifier": {
     "maxWaterDepth": 52,
@@ -37988,6 +39584,774 @@
   "lootr:trophy": {
     "maxWaterDepth": 100,
     "implosionChance": 0.05
+  },
+  "luminax:black_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:black_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:black_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:black_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:black_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:black_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:blue_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:blue_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:blue_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:blue_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:blue_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:blue_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:brown_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:brown_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:brown_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:brown_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:brown_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:brown_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:cyan_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:cyan_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:cyan_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:cyan_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:cyan_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:cyan_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_black_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_black_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_black_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_black_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:dim_black_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_black_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_blue_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_blue_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_blue_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_blue_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:dim_blue_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_blue_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_brown_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_brown_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_brown_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_brown_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:dim_brown_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_brown_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_cyan_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_cyan_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_cyan_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_cyan_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:dim_cyan_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_cyan_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_gray_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_gray_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_gray_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_gray_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:dim_gray_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_gray_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_green_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_green_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_green_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_green_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:dim_green_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_green_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_light_blue_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_light_blue_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_light_blue_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_light_blue_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:dim_light_blue_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_light_blue_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_light_gray_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_light_gray_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_light_gray_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_light_gray_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:dim_light_gray_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_light_gray_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_lime_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_lime_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_lime_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_lime_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:dim_lime_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_lime_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_magenta_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_magenta_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_magenta_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_magenta_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:dim_magenta_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_magenta_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_orange_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_orange_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_orange_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_orange_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:dim_orange_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_orange_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_pink_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_pink_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_pink_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_pink_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:dim_pink_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_pink_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_purple_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_purple_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_purple_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_purple_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:dim_purple_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_purple_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_red_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_red_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_red_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_red_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:dim_red_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_red_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_white_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_white_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_white_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_white_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:dim_white_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_white_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_yellow_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_yellow_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_yellow_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:dim_yellow_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:dim_yellow_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:dim_yellow_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:gray_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:gray_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:gray_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:gray_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:gray_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:gray_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:green_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:green_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:green_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:green_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:green_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:green_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:light_blue_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:light_blue_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:light_blue_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:light_blue_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:light_blue_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:light_blue_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:light_gray_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:light_gray_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:light_gray_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:light_gray_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:light_gray_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:light_gray_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:lime_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:lime_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:lime_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:lime_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:lime_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:lime_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:magenta_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:magenta_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:magenta_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:magenta_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:magenta_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:magenta_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:orange_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:orange_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:orange_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:orange_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:orange_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:orange_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:pink_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:pink_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:pink_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:pink_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:pink_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:pink_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:purple_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:purple_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:purple_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:purple_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:purple_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:purple_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:red_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:red_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:red_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:red_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:red_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:red_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:white_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:white_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:white_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:white_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:white_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:white_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:yellow_luminax_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:yellow_luminax_button": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:yellow_luminax_pressure_plate": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "luminax:yellow_luminax_slab": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "luminax:yellow_luminax_stairs": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "luminax:yellow_luminax_wall": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
   },
   "mekanism:advanced_bin": {
     "maxWaterDepth": 100,
@@ -44502,6 +46866,1746 @@
     "implosionChance": 0.4806853
   },
   "minecraft:zombie_wall_head": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:amethyst_bronze_block": {
+    "maxWaterDepth": 99,
+    "implosionChance": 0.17082405
+  },
+  "modernfoundry:beetroot_soup_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:black_clear_stained_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:black_clear_stained_glass_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:blaze_head": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:blaze_wall_head": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:blazewood": {
+    "maxWaterDepth": 202,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:blazewood_fence": {
+    "maxWaterDepth": 202,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:blazewood_slab": {
+    "maxWaterDepth": 202,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:blazewood_stairs": {
+    "maxWaterDepth": 202,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:blazing_blood_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:blood_cake": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:blood_earth_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:blood_ender_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:blood_ichor_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:blood_sky_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:blood_slime_fern": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:blood_slime_leaves": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:blood_slime_sapling": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:blood_slime_tall_grass": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:blood_vanilla_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:bloodshroom_button": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:bloodshroom_door": {
+    "maxWaterDepth": 49,
+    "implosionChance": 0.31137055
+  },
+  "modernfoundry:bloodshroom_fence": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:bloodshroom_fence_gate": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:bloodshroom_hanging_sign": {
+    "maxWaterDepth": 29,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:bloodshroom_log": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:bloodshroom_planks": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:bloodshroom_planks_slab": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:bloodshroom_planks_stairs": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:bloodshroom_pressure_plate": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:bloodshroom_sign": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:bloodshroom_trapdoor": {
+    "maxWaterDepth": 49,
+    "implosionChance": 0.31137055
+  },
+  "modernfoundry:bloodshroom_wall_hanging_sign": {
+    "maxWaterDepth": 29,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:bloodshroom_wall_sign": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:bloodshroom_wood": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:blue_clear_stained_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:blue_clear_stained_glass_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:brown_clear_stained_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:brown_clear_stained_glass_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:budding_earth_slime_crystal": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:budding_ender_slime_crystal": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:budding_ichor_slime_crystal": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:budding_sky_slime_crystal": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:cast_chest": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:cave_spider_head": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:cave_spider_wall_head": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:cheese_block": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.38637057
+  },
+  "modernfoundry:chiseled_scorched_bricks": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:cinderslime_block": {
+    "maxWaterDepth": 99,
+    "implosionChance": 0.17082405
+  },
+  "modernfoundry:clear_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:clear_glass_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:clear_tinted_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:cobalt_block": {
+    "maxWaterDepth": 99,
+    "implosionChance": 0.17082405
+  },
+  "modernfoundry:cobalt_cluster": {
+    "maxWaterDepth": 70,
+    "implosionChance": 0.3497237
+  },
+  "modernfoundry:cobalt_ore": {
+    "maxWaterDepth": 104,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:cobalt_platform": {
+    "maxWaterDepth": 99,
+    "implosionChance": 0.17082405
+  },
+  "modernfoundry:copper_gauge": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:copper_platform": {
+    "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
+  "modernfoundry:crafting_station": {
+    "maxWaterDepth": 43,
+    "implosionChance": 0.37082404
+  },
+  "modernfoundry:cyan_clear_stained_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:cyan_clear_stained_glass_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:drowned_head": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:drowned_wall_head": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:earth_cake": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:earth_congealed_slime": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:earth_earth_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:earth_ender_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:earth_enderbark_roots": {
+    "maxWaterDepth": 26,
+    "implosionChance": 0.5119372
+  },
+  "modernfoundry:earth_ichor_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:earth_sky_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:earth_slime_crystal_block": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:earth_slime_crystal_cluster": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:earth_slime_dirt": {
+    "maxWaterDepth": 39,
+    "implosionChance": 0.39852893
+  },
+  "modernfoundry:earth_slime_fern": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:earth_slime_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:earth_slime_leaves": {
+    "maxWaterDepth": 29,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:earth_slime_sapling": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:earth_slime_tall_grass": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:earth_vanilla_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:end_fluid_cannon": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:ender_cake": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:ender_congealed_slime": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:ender_earth_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:ender_ender_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:ender_enderbark_roots": {
+    "maxWaterDepth": 26,
+    "implosionChance": 0.5119372
+  },
+  "modernfoundry:ender_ichor_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:ender_sky_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:ender_slime": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:ender_slime_crystal_block": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:ender_slime_crystal_cluster": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:ender_slime_dirt": {
+    "maxWaterDepth": 39,
+    "implosionChance": 0.39852893
+  },
+  "modernfoundry:ender_slime_fern": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:ender_slime_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:ender_slime_leaves": {
+    "maxWaterDepth": 29,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:ender_slime_sapling": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:ender_slime_tall_grass": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:ender_slime_vine": {
+    "maxWaterDepth": 26,
+    "implosionChance": 0.50653845
+  },
+  "modernfoundry:ender_vanilla_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:enderbark_button": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:enderbark_door": {
+    "maxWaterDepth": 49,
+    "implosionChance": 0.31137055
+  },
+  "modernfoundry:enderbark_fence": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:enderbark_fence_gate": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:enderbark_hanging_sign": {
+    "maxWaterDepth": 29,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:enderbark_log": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:enderbark_planks": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:enderbark_planks_slab": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:enderbark_planks_stairs": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:enderbark_pressure_plate": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:enderbark_roots": {
+    "maxWaterDepth": 26,
+    "implosionChance": 0.5119372
+  },
+  "modernfoundry:enderbark_sign": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:enderbark_trapdoor": {
+    "maxWaterDepth": 49,
+    "implosionChance": 0.31137055
+  },
+  "modernfoundry:enderbark_wall_hanging_sign": {
+    "maxWaterDepth": 29,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:enderbark_wall_sign": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:enderbark_wood": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:enderman_head": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:enderman_wall_head": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:exposed_copper_platform": {
+    "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
+  "modernfoundry:fake_storage_block": {
+    "maxWaterDepth": 99,
+    "implosionChance": 0.17082405
+  },
+  "modernfoundry:fiery_liquid_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:fire_dragon_blood_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:foundry_controller": {
+    "maxWaterDepth": 112,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:glow": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:gold_bars": {
+    "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
+  "modernfoundry:gold_platform": {
+    "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
+  "modernfoundry:gray_clear_stained_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:gray_clear_stained_glass_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:green_clear_stained_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:green_clear_stained_glass_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:greenheart_button": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:greenheart_door": {
+    "maxWaterDepth": 49,
+    "implosionChance": 0.31137055
+  },
+  "modernfoundry:greenheart_fence": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:greenheart_fence_gate": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:greenheart_hanging_sign": {
+    "maxWaterDepth": 29,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:greenheart_log": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:greenheart_planks": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:greenheart_planks_slab": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:greenheart_planks_stairs": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:greenheart_pressure_plate": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:greenheart_sign": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:greenheart_trapdoor": {
+    "maxWaterDepth": 49,
+    "implosionChance": 0.31137055
+  },
+  "modernfoundry:greenheart_wall_hanging_sign": {
+    "maxWaterDepth": 29,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:greenheart_wall_sign": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:greenheart_wood": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:grout": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31137055
+  },
+  "modernfoundry:hepatizon_block": {
+    "maxWaterDepth": 99,
+    "implosionChance": 0.17082405
+  },
+  "modernfoundry:honey_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:husk_head": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:husk_wall_head": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:ice_dragon_blood_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:ichor_cake": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:ichor_congealed_slime": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:ichor_earth_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:ichor_ender_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:ichor_enderbark_roots": {
+    "maxWaterDepth": 26,
+    "implosionChance": 0.5119372
+  },
+  "modernfoundry:ichor_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:ichor_ichor_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:ichor_sky_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:ichor_slime": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:ichor_slime_crystal_block": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:ichor_slime_crystal_cluster": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:ichor_slime_dirt": {
+    "maxWaterDepth": 39,
+    "implosionChance": 0.39852893
+  },
+  "modernfoundry:ichor_slime_fern": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:ichor_slime_leaves": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:ichor_slime_sapling": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:ichor_slime_tall_grass": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:ichor_vanilla_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:iron_platform": {
+    "maxWaterDepth": 101,
+    "implosionChance": 0.15540898
+  },
+  "modernfoundry:knightmetal_block": {
+    "maxWaterDepth": 99,
+    "implosionChance": 0.17082405
+  },
+  "modernfoundry:knightmetal_cluster": {
+    "maxWaterDepth": 70,
+    "implosionChance": 0.3497237
+  },
+  "modernfoundry:knightslime_block": {
+    "maxWaterDepth": 99,
+    "implosionChance": 0.17082405
+  },
+  "modernfoundry:large_earth_slime_crystal_bud": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:large_ender_slime_crystal_bud": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:large_ichor_slime_crystal_bud": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:large_sky_slime_crystal_bud": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:light_blue_clear_stained_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:light_blue_clear_stained_glass_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:light_gray_clear_stained_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:light_gray_clear_stained_glass_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:lightning_dragon_blood_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:lime_clear_stained_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:lime_clear_stained_glass_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:liquid_soul_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:magenta_clear_stained_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:magenta_clear_stained_glass_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:magma_cake": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:magma_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:manyullyn_block": {
+    "maxWaterDepth": 99,
+    "implosionChance": 0.17082405
+  },
+  "modernfoundry:meat_soup_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:medium_earth_slime_crystal_bud": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:medium_ender_slime_crystal_bud": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:medium_ichor_slime_crystal_bud": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:medium_sky_slime_crystal_bud": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:modifier_worktable": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:molten_aluminum_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_amethyst_bronze_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_amethyst_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_bendalloy_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_brass_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_bronze_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_cadmium_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_certus_quartz_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_chromium_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_cinderslime_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_clay_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_cobalt_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_constantan_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_copper_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_debris_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_diamond_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_duralumin_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_electrum_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_emerald_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_ender_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_enderium_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_fire_dragonsteel_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_fluix_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_glass_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_gold_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_hepatizon_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_ice_dragonsteel_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_invar_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_iron_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_knightmetal_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_knightslime_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_lead_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_lightning_dragonsteel_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_lumium_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_manyullyn_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_netherite_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_nickel_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_nicrosil_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_obsidian_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_osmium_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_pewter_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_pig_iron_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_platinum_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_porcelain_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_quartz_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_queens_slime_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_refined_glowstone_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_refined_obsidian_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_rose_gold_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_signalum_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_silver_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_slimesteel_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_soulsteel_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_steel_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_steeleaf_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_tin_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_tungsten_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_uranium_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:molten_zinc_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:mushroom_stew_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:nahuatl": {
+    "maxWaterDepth": 202,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:nahuatl_fence": {
+    "maxWaterDepth": 202,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:nahuatl_slab": {
+    "maxWaterDepth": 202,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:nahuatl_stairs": {
+    "maxWaterDepth": 202,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:nether_grout": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31137055
+  },
+  "modernfoundry:obsidian_gauge": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:obsidian_pane": {
+    "maxWaterDepth": 321,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:orange_clear_stained_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:orange_clear_stained_glass_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:oxidized_copper_platform": {
+    "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
+  "modernfoundry:part_builder": {
+    "maxWaterDepth": 43,
+    "implosionChance": 0.37082404
+  },
+  "modernfoundry:part_chest": {
+    "maxWaterDepth": 43,
+    "implosionChance": 0.37082404
+  },
+  "modernfoundry:pig_iron_block": {
+    "maxWaterDepth": 99,
+    "implosionChance": 0.17082405
+  },
+  "modernfoundry:piglin_brute_head": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:piglin_brute_wall_head": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:pink_clear_stained_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:pink_clear_stained_glass_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:polished_scorched_stone": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:potted_blood_slime_fern": {
+    "maxWaterDepth": 25,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:potted_blood_slime_sapling": {
+    "maxWaterDepth": 25,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:potted_earth_slime_fern": {
+    "maxWaterDepth": 25,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:potted_earth_slime_sapling": {
+    "maxWaterDepth": 25,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:potted_ender_slime_fern": {
+    "maxWaterDepth": 25,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:potted_ender_slime_sapling": {
+    "maxWaterDepth": 25,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:potted_ichor_slime_fern": {
+    "maxWaterDepth": 25,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:potted_ichor_slime_sapling": {
+    "maxWaterDepth": 25,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:potted_sky_slime_fern": {
+    "maxWaterDepth": 25,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:potted_sky_slime_sapling": {
+    "maxWaterDepth": 25,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:punji": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31137055
+  },
+  "modernfoundry:purple_clear_stained_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:purple_clear_stained_glass_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:queens_slime_block": {
+    "maxWaterDepth": 99,
+    "implosionChance": 0.17082405
+  },
+  "modernfoundry:rabbit_stew_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:raw_cobalt_block": {
+    "maxWaterDepth": 76,
+    "implosionChance": 0.09205584
+  },
+  "modernfoundry:red_clear_stained_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:red_clear_stained_glass_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:rose_gold_block": {
+    "maxWaterDepth": 99,
+    "implosionChance": 0.17082405
+  },
+  "modernfoundry:scorched_alloyer": {
+    "maxWaterDepth": 112,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:scorched_anvil": {
+    "maxWaterDepth": 130,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:scorched_basin": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_bricks": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_bricks_fence": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_bricks_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_bricks_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_channel": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_chute": {
+    "maxWaterDepth": 99,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:scorched_drain": {
+    "maxWaterDepth": 99,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:scorched_duct": {
+    "maxWaterDepth": 99,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:scorched_faucet": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_fluid_cannon": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_fuel_gauge": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_fuel_tank": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_glass": {
+    "maxWaterDepth": 30,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_glass_pane": {
+    "maxWaterDepth": 30,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_ingot_gauge": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_ingot_tank": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_ladder": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_lamp": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_lantern": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_proxy_tank": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_road": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_road_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_road_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_soul_glass": {
+    "maxWaterDepth": 30,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_soul_glass_pane": {
+    "maxWaterDepth": 30,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_stone": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_stone_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:scorched_table": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:scorched_tinted_glass": {
+    "maxWaterDepth": 30,
+    "implosionChance": 0.25527754
+  },
+  "modernfoundry:seared_basin": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_bricks": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_bricks_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_bricks_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_bricks_wall": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_casting_tank": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_channel": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_chute": {
+    "maxWaterDepth": 125,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:seared_cobble": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_cobble_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_cobble_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_cobble_wall": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_cracked_bricks": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_drain": {
+    "maxWaterDepth": 125,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:seared_duct": {
+    "maxWaterDepth": 125,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:seared_fancy_bricks": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_faucet": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_fluid_cannon": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_fuel_gauge": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_fuel_tank": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_glass": {
+    "maxWaterDepth": 30,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_glass_pane": {
+    "maxWaterDepth": 30,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_heater": {
+    "maxWaterDepth": 148,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:seared_ingot_gauge": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_ingot_tank": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_ladder": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_lamp": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_lantern": {
+    "maxWaterDepth": 61,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_melter": {
+    "maxWaterDepth": 148,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:seared_paver": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_paver_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_paver_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_soul_glass": {
+    "maxWaterDepth": 30,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_soul_glass_pane": {
+    "maxWaterDepth": 30,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_stone": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_stone_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:seared_stone_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_stone_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_table": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_tinted_glass": {
+    "maxWaterDepth": 30,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:seared_triangle_bricks": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "modernfoundry:sky_cake": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:sky_congealed_slime": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:sky_earth_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:sky_ender_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:sky_enderbark_roots": {
+    "maxWaterDepth": 26,
+    "implosionChance": 0.5119372
+  },
+  "modernfoundry:sky_ichor_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:sky_sky_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:sky_slime": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:sky_slime_crystal_block": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:sky_slime_crystal_cluster": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:sky_slime_dirt": {
+    "maxWaterDepth": 39,
+    "implosionChance": 0.39852893
+  },
+  "modernfoundry:sky_slime_fern": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:sky_slime_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:sky_slime_leaves": {
+    "maxWaterDepth": 29,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:sky_slime_sapling": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:sky_slime_tall_grass": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "modernfoundry:sky_slime_vine": {
+    "maxWaterDepth": 26,
+    "implosionChance": 0.50653845
+  },
+  "modernfoundry:sky_vanilla_slime_grass": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:skyroot_button": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:skyroot_door": {
+    "maxWaterDepth": 49,
+    "implosionChance": 0.31137055
+  },
+  "modernfoundry:skyroot_fence": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:skyroot_fence_gate": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:skyroot_hanging_sign": {
+    "maxWaterDepth": 29,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:skyroot_log": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:skyroot_planks": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:skyroot_planks_slab": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:skyroot_planks_stairs": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "modernfoundry:skyroot_pressure_plate": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.5344535
+  },
+  "modernfoundry:skyroot_sign": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:skyroot_trapdoor": {
+    "maxWaterDepth": 49,
+    "implosionChance": 0.31137055
+  },
+  "modernfoundry:skyroot_wall_hanging_sign": {
+    "maxWaterDepth": 29,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:skyroot_wall_sign": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:skyroot_wood": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:slimesteel_block": {
+    "maxWaterDepth": 99,
+    "implosionChance": 0.17082405
+  },
+  "modernfoundry:small_earth_slime_crystal_bud": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:small_ender_slime_crystal_bud": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:small_ichor_slime_crystal_bud": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:small_sky_slime_crystal_bud": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "modernfoundry:smeltery_controller": {
+    "maxWaterDepth": 148,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:soul_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:soul_glass_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:soulsteel_block": {
+    "maxWaterDepth": 99,
+    "implosionChance": 0.17082405
+  },
+  "modernfoundry:spider_head": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:spider_wall_head": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:steel_block": {
+    "maxWaterDepth": 99,
+    "implosionChance": 0.17082405
+  },
+  "modernfoundry:steel_cluster": {
+    "maxWaterDepth": 70,
+    "implosionChance": 0.3497237
+  },
+  "modernfoundry:stray_head": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:stray_wall_head": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:stripped_bloodshroom_log": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:stripped_bloodshroom_wood": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:stripped_enderbark_log": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:stripped_enderbark_wood": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:stripped_greenheart_log": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:stripped_greenheart_wood": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:stripped_skyroot_log": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:stripped_skyroot_wood": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.39013878
+  },
+  "modernfoundry:tinker_station": {
+    "maxWaterDepth": 43,
+    "implosionChance": 0.37082404
+  },
+  "modernfoundry:tinkers_anvil": {
+    "maxWaterDepth": 130,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:tinkers_chest": {
+    "maxWaterDepth": 43,
+    "implosionChance": 0.37082404
+  },
+  "modernfoundry:venom_fluid": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "modernfoundry:waxed_copper_platform": {
+    "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
+  "modernfoundry:waxed_exposed_copper_platform": {
+    "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
+  "modernfoundry:waxed_oxidized_copper_platform": {
+    "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
+  "modernfoundry:waxed_weathered_copper_platform": {
+    "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
+  "modernfoundry:weathered_copper_platform": {
+    "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
+  "modernfoundry:white_clear_stained_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:white_clear_stained_glass_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:yellow_clear_stained_glass": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:yellow_clear_stained_glass_pane": {
+    "maxWaterDepth": 28,
+    "implosionChance": 0.55876356
+  },
+  "modernfoundry:zombified_piglin_head": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.4806853
+  },
+  "modernfoundry:zombified_piglin_wall_head": {
     "maxWaterDepth": 44,
     "implosionChance": 0.4806853
   },
@@ -66657,6 +70761,150 @@
     "maxWaterDepth": 47,
     "implosionChance": 0.330409
   },
+  "stonezone:c/modernfoundry/cut_scorched_stone": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:c/modernfoundry/cut_scorched_stone_brick_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:c/modernfoundry/cut_scorched_stone_brick_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:c/modernfoundry/cut_scorched_stone_brick_wall": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:c/modernfoundry/cut_scorched_stone_bricks": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:c/modernfoundry/cut_scorched_stone_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:c/modernfoundry/cut_scorched_stone_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:c/modernfoundry/cut_scorched_stone_wall": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:c/modernfoundry/cut_seared_stone": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:c/modernfoundry/cut_seared_stone_brick_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:c/modernfoundry/cut_seared_stone_brick_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:c/modernfoundry/cut_seared_stone_brick_wall": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:c/modernfoundry/cut_seared_stone_bricks": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:c/modernfoundry/cut_seared_stone_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:c/modernfoundry/cut_seared_stone_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:c/modernfoundry/cut_seared_stone_wall": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:c/modernfoundry/layered_scorched_stone": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:c/modernfoundry/layered_seared_stone": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:c/modernfoundry/polished_cut_scorched_stone": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:c/modernfoundry/polished_cut_scorched_stone_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:c/modernfoundry/polished_cut_scorched_stone_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:c/modernfoundry/polished_cut_scorched_stone_wall": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:c/modernfoundry/polished_cut_seared_stone": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:c/modernfoundry/polished_cut_seared_stone_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:c/modernfoundry/polished_cut_seared_stone_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:c/modernfoundry/polished_cut_seared_stone_wall": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:c/modernfoundry/scorched_stone_pillar": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:c/modernfoundry/seared_stone_pillar": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:c/modernfoundry/small_scorched_stone_brick_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:c/modernfoundry/small_scorched_stone_brick_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:c/modernfoundry/small_scorched_stone_brick_wall": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:c/modernfoundry/small_scorched_stone_bricks": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:c/modernfoundry/small_seared_stone_brick_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:c/modernfoundry/small_seared_stone_brick_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:c/modernfoundry/small_seared_stone_brick_wall": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:c/modernfoundry/small_seared_stone_bricks": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
   "stonezone:c/mysticalagriculture/cut_soulstone": {
     "maxWaterDepth": 68,
     "implosionChance": 0.330409
@@ -67332,6 +71580,10 @@
   "stonezone:q/minecraft/sulfur_vertical_slab": {
     "maxWaterDepth": 47,
     "implosionChance": 0.330409
+  },
+  "stonezone:q/modernfoundry/seared_stone_vertical_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
   },
   "stonezone:q/mysticalagriculture/soulstone_vertical_slab": {
     "maxWaterDepth": 68,
@@ -73625,6 +77877,846 @@
     "maxWaterDepth": 47,
     "implosionChance": 0.330409
   },
+  "stonezone:rcd/modernfoundry/scorched_stone_big_tiles": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_big_tiles_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_big_tiles_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_big_tiles_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_big_tiles_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_big_tiles_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_bordered": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_bordered_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_bordered_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_bordered_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_bordered_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_bordered_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_brick_pattern": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_brick_pattern_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_brick_pattern_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_brick_pattern_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_brick_pattern_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_brick_pattern_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_brick_paving": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_brick_paving_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_brick_paving_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_brick_paving_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_brick_paving_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_brick_paving_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_crushed": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_crushed_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_crushed_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_crushed_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_crushed_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_crushed_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_diagonal_bricks": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_diagonal_bricks_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_diagonal_bricks_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_diagonal_bricks_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_diagonal_bricks_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_diagonal_bricks_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_path": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_path_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_path_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_path_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_path_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_path_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_rotated_bricks": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_rotated_bricks_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_rotated_bricks_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_rotated_bricks_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_rotated_bricks_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_rotated_bricks_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_slated": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_slated_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_slated_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_small_bricks": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_small_bricks_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_small_bricks_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_small_bricks_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_small_bricks_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_small_bricks_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_small_tiles": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_small_tiles_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_small_tiles_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_small_tiles_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_small_tiles_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_small_tiles_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_brick_paving": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_brick_paving_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_brick_paving_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_brick_paving_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_brick_paving_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_brick_paving_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_large_tiles": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_large_tiles_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_large_tiles_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_large_tiles_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_large_tiles_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_large_tiles_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_rotated_bricks": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_rotated_bricks_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_rotated_bricks_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_rotated_bricks_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_rotated_bricks_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_rotated_bricks_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_tiles": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_tiles_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_tiles_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_tiles_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_tiles_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_smooth_tiles_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_squares": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_squares_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_squares_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_squares_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_squares_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_squares_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_tiles": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_tiles_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_tiles_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_tiles_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_tiles_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_tiles_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_waves": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_waves_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_waves_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_waves_slab_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_waves_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/scorched_stone_waves_stairs_connecting": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25527754
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_big_tiles": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_big_tiles_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_big_tiles_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_big_tiles_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_big_tiles_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_big_tiles_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_bordered": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_bordered_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_bordered_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_bordered_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_bordered_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_bordered_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_brick_pattern": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_brick_pattern_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_brick_pattern_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_brick_pattern_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_brick_pattern_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_brick_pattern_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_brick_paving": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_brick_paving_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_brick_paving_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_brick_paving_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_brick_paving_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_brick_paving_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_crushed": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_crushed_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_crushed_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_crushed_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_crushed_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_crushed_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_diagonal_bricks": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_diagonal_bricks_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_diagonal_bricks_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_diagonal_bricks_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_diagonal_bricks_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_diagonal_bricks_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_path": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_path_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_path_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_path_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_path_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_path_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_rotated_bricks": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_rotated_bricks_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_rotated_bricks_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_rotated_bricks_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_rotated_bricks_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_rotated_bricks_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_slated": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_slated_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_slated_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_small_bricks": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_small_bricks_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_small_bricks_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_small_bricks_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_small_bricks_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_small_bricks_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_small_tiles": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_small_tiles_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_small_tiles_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_small_tiles_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_small_tiles_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_small_tiles_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_brick_paving": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_brick_paving_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_brick_paving_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_brick_paving_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_brick_paving_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_brick_paving_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_large_tiles": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_large_tiles_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_large_tiles_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_large_tiles_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_large_tiles_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_large_tiles_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_rotated_bricks": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_rotated_bricks_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_rotated_bricks_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_rotated_bricks_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_rotated_bricks_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_rotated_bricks_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_tiles": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_tiles_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_tiles_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_tiles_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_tiles_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_smooth_tiles_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_squares": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_squares_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_squares_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_squares_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_squares_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_squares_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_tiles": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_tiles_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_tiles_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_tiles_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_tiles_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_tiles_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_waves": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_waves_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_waves_slab": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_waves_slab_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_waves_stairs": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
+  "stonezone:rcd/modernfoundry/seared_stone_waves_stairs_connecting": {
+    "maxWaterDepth": 91,
+    "implosionChance": 0.2197415
+  },
   "stonezone:rcd/mysticalagriculture/soulstone_big_tiles": {
     "maxWaterDepth": 68,
     "implosionChance": 0.330409
@@ -77467,6 +82559,14 @@
   },
   "stonezone:wys/minecraft/sulfur_waystone": {
     "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "stonezone:wys/modernfoundry/scorched_stone_waystone": {
+    "maxWaterDepth": 136,
+    "implosionChance": 0.05
+  },
+  "stonezone:wys/modernfoundry/seared_stone_waystone": {
+    "maxWaterDepth": 192,
     "implosionChance": 0.05
   },
   "stonezone:wys/mysticalagriculture/soulstone_waystone": {

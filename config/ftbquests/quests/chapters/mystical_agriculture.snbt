@@ -1,0 +1,44 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mystical_agriculture"
+	group: ""
+	id: "2C829A7493474E8F"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "43DB48A873087ED5"
+			tasks: [{
+				id: "5B0609BD1A29832A"
+				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["401B172496EA690F"]
+			id: "5303A8278277B1B4"
+			tasks: [{
+				id: "644878BE808B36FA"
+				item: { count: 1, id: "mysticalagriculture:infusion_crystal" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E31B68002DDD577"]
+			id: "174215FC78FBCA58"
+			tasks: [{
+				id: "2C6ACE40C9C83BD1"
+				item: { count: 1, id: "mysticalagriculture:prosperity_shard" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

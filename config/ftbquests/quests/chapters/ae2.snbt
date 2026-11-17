@@ -1,0 +1,84 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: ""
+	id: "31460D6C709428A2"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3DA58CD9472BF504"
+			tasks: [{
+				icon: {
+					id: "ae2:sky_stone_block"
+				}
+				id: "10C136C49FA034D9"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "ae2:sky_stone_block"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3AD9C5E7D363A55A"
+			tasks: [{
+				id: "21EF3FCD021F80BA"
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2C42C8CA1C34878A"
+				"3AD9C5E7D363A55A"
+			]
+			id: "64BD51E2EE77F793"
+			tasks: [
+				{
+					id: "09F83FD95D368CBA"
+					item: { count: 1, id: "ae2:logic_processor" }
+					type: "item"
+				}
+				{
+					id: "1420442FC9EEB5C3"
+					item: { count: 1, id: "ae2:calculation_processor" }
+					type: "item"
+				}
+				{
+					id: "33183132CE463232"
+					item: { count: 1, id: "ae2:engineering_processor" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "3A3E1DCFE40777A9"
+			tasks: [{
+				id: "4C3F3DE22305F5CA"
+				item: { count: 1, id: "ae2:fluix_pearl" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "570C1D7DD813E304"
+			tasks: [{
+				id: "48FD118432F4E7FA"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+	]
+}

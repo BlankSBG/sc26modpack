@@ -1,0 +1,106 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars"
+	group: ""
+	id: "74C28D28E2572395"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1BB1DF510445554D"
+			tasks: [{
+				id: "5E11D2390D3513A5"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:logs/archwood)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1AD920D6F7D46226"
+				"1E31B68002DDD577"
+			]
+			id: "27454391021C47B8"
+			tasks: [{
+				id: "4370FACB747C895C"
+				item: { count: 1, id: "ars_technica:calibrated_precision_mechanism" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7553357D8ED2A3F9"]
+			id: "1E31B68002DDD577"
+			tasks: [
+				{
+					id: "27CB9D65F41B814A"
+					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+					type: "item"
+				}
+				{
+					id: "010731C314D7838B"
+					item: { count: 1, id: "ars_nouveau:arcane_core" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "38D4819CAA757513"
+					item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BB1DF510445554D"]
+			disable_recipe_mod: true
+			id: "475CFBC2A3B3AC03"
+			tasks: [{
+				id: "5704E86A39DF3893"
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["475CFBC2A3B3AC03"]
+			id: "7553357D8ED2A3F9"
+			tasks: [{
+				id: "035F77E5DD9BB6FE"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7553357D8ED2A3F9"]
+			id: "7608AEBD5A57F667"
+			tasks: [{
+				id: "75143EF8975D2ECF"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:agronomic_sourcelink)item(ars_nouveau:volcanic_sourcelink)item(ars_nouveau:alchemical_sourcelink)item(ars_nouveau:vitalic_sourcelink)item(ars_nouveau:mycelial_sourcelink))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["475CFBC2A3B3AC03"]
+			id: "401B172496EA690F"
+			optional: true
+			tasks: [{
+				id: "1165A91468138360"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:abjuration_essence)item(ars_nouveau:conjuration_essence)item(ars_nouveau:air_essence)item(ars_nouveau:earth_essence)item(ars_nouveau:fire_essence)item(ars_nouveau:manipulation_essence)item(ars_nouveau:water_essence)item(sauce:anima_essence))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+}
