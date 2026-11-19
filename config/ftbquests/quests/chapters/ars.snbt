@@ -9,7 +9,12 @@
 	id: "74C28D28E2572395"
 	images: [ ]
 	order_index: 5
-	quest_links: [ ]
+	quest_links: [{
+		id: "2A763EEF5E75FD00"
+		linked_quest: "1AD920D6F7D46226"
+		x: 6.5d
+		y: -1.0d
+	}]
 	quests: [
 		{
 			id: "1BB1DF510445554D"

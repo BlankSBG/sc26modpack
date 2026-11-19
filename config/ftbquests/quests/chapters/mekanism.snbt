@@ -46,18 +46,11 @@
 		{
 			dependencies: ["099641DE5DA182AE"]
 			id: "44786D4A9FF5CB4F"
-			tasks: [
-				{
-					id: "59B70B6931DD7666"
-					item: { count: 1, id: "mekanism:steel_casing" }
-					type: "item"
-				}
-				{
-					id: "3BEE7B037DB4A36A"
-					item: { count: 1, id: "mekanism:configurator" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "59B70B6931DD7666"
+				item: { count: 1, id: "mekanism:steel_casing" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 0.0d
 		}
@@ -98,6 +91,14 @@
 				"27454391021C47B8"
 			]
 			id: "3D266E7B7D804DBA"
+			rewards: [{
+				id: "02A2E0E6CFB89BFA"
+				item: {
+					count: 1
+					id: "mekanism:chargepad"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F832FF36CAA8901"
 				item: { count: 1, id: "mekanism:robit" }
@@ -135,6 +136,14 @@
 		{
 			dependencies: ["369EFA0AA5A8455D"]
 			id: "0482F99A8B778101"
+			rewards: [{
+				id: "77193F43C9824B29"
+				item: {
+					count: 1
+					id: "ars_technica:calibrated_precision_mechanism"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7BC3711DCD0C2283"
 				item: { count: 1, id: "mekanism:dust_diamond" }
@@ -146,6 +155,14 @@
 		{
 			dependencies: ["7FD5D6629C7DC230"]
 			id: "2399222A866D0F8B"
+			rewards: [{
+				id: "39E0642833EC0641"
+				item: {
+					count: 1
+					id: "mekanism:enrichment_chamber"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E473FAEEC3CCA54"
 				item: { count: 1, id: "mekanism:enrichment_chamber" }
@@ -268,6 +285,7 @@
 		{
 			hide_dependency_lines: true
 			id: "75464C06602C0DF0"
+			optional: true
 			tasks: [{
 				id: "651524F0000BBE9A"
 				item: { count: 1, id: "mekanismgenerators:heat_generator" }
@@ -279,6 +297,7 @@
 		{
 			hide_dependency_lines: true
 			id: "248FB736193220A2"
+			optional: true
 			tasks: [{
 				id: "08EE964A93AD399C"
 				item: { count: 1, id: "mekanismgenerators:wind_generator" }
@@ -289,6 +308,7 @@
 		}
 		{
 			id: "413C62521DECBE65"
+			optional: true
 			tasks: [{
 				id: "7810C048189E9479"
 				item: { count: 1, id: "mekanismgenerators:solar_generator" }
@@ -300,6 +320,7 @@
 		{
 			dependencies: ["413C62521DECBE65"]
 			id: "16BDD8052FE0E9EF"
+			optional: true
 			tasks: [{
 				id: "00D7BBD3E0D8EB3D"
 				item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
@@ -310,6 +331,7 @@
 		}
 		{
 			id: "67D8B144659B8F08"
+			optional: true
 			tasks: [{
 				id: "1BCFB19103A2309B"
 				item: { count: 1, id: "mekanismgenerators:bio_generator" }
@@ -446,6 +468,14 @@
 			dependencies: ["099641DE5DA182AE"]
 			hide_until_deps_complete: true
 			id: "5A673E761811B722"
+			rewards: [{
+				id: "35397F10F8950473"
+				item: {
+					count: 1
+					id: "mekanism:configurator"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "05F8BBC26BCFD410"

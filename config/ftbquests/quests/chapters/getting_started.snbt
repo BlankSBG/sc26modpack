@@ -16,6 +16,15 @@
 				id: "minecraft:grass_block"
 			}
 			id: "1DA00726E7D87789"
+			rewards: [{
+				count: 16
+				id: "6BAB35C5DD0FB3E1"
+				item: {
+					count: 1
+					id: "farmersdelight:fruit_salad"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:oak_log"
@@ -67,6 +76,48 @@
 			}]
 			x: 0.0d
 			y: -1.5d
+		}
+		{
+			id: "70EF9FF526D074FE"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "2433DE561036613A"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:upgrade_base"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "753D6F8E58CCE073"
+				item: { components: { "sophisticatedcore:number_of_inventory_slots": 27, "sophisticatedcore:number_of_upgrade_slots": 1 }, count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "6B2D9B833929C224"
+			optional: true
+			tasks: [{
+				id: "458F729B1525D803"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "66331FF5C581D3A1"
+			optional: true
+			tasks: [{
+				id: "57CB9CCB6BB8A4B2"
+				item: { components: { "minecraft:custom_data": { custom: { angle: 20.0d, attract: 0b, attractradius: 3.0d, crc32: 2252267022L, detachonkeyrelease: 0b, doublehook: 0b, enderstaff: 0b, hookgravity: 1.0d, maxlen: 30.0d, motor: 0b, motoracceleration: 0.2d, motordampener: 0b, motormaxspeed: 4.0d, motorwhencrouching: 0b, motorwhennotcrouching: 1b, oneropepull: 0b, phaserope: 0b, playermovementmult: 1.0d, pullbackwards: 1b, reelin: 1b, repel: 0b, repelforce: 1.0d, rocket: 0b, rocket_active_time: 0.5d, rocket_force: 1.0d, rocket_refuel_ratio: 15.0d, rocket_vertical_angle: 0.0d, smartdoublemotor: 1b, smartmotor: 0b, sneakingangle: 10.0d, sneakingverticalthrowangle: 0.0d, sticky: 0b, throwspeed: 2.0d, verticalthrowangle: 0.0d } } }, count: 1, id: "grappling_hook_neo:grapplinghook" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
 		}
 	]
 }

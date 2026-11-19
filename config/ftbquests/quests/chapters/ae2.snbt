@@ -12,6 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			disable_recipe_mod: false
 			id: "3DA58CD9472BF504"
 			tasks: [{
 				icon: {

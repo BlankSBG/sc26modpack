@@ -7,9 +7,56 @@
 	chapter.74C28D28E2572395.title: "Ars Nouveau"
 	chapter.7FE54D019B610C76.title: "Mekanism Multi-Blocks"
 	file.0000000000000001.title: "SC26"
+	quest.099641DE5DA182AE.quest_subtitle: "Stronger Machines"
+	quest.09F195F6201B5CB9.title: "Engines"
+	quest.1DA00726E7D87789.quest_desc: [
+		"Welcome to Modded SummerCraft 2026!"
+		""
+		"This quest book will help you explore the content in this modpack. You are in the Getting Started category, you can move your mouse to the left to open the side bar to find the other categories."
+	]
 	quest.1DA00726E7D87789.title: "Welcome"
+	quest.2399222A866D0F8B.quest_desc: ["Hint: You can use this machine to make Rose Quartz with enriched redstone"]
+	quest.268F6ECBFBE1B5BF.quest_desc: [
+		"Mekanism is all about futuristic technology and making powerful armor and tools"
+		""
+		"Start by making some steel with iron and coal. You'll want to craft a better power generator soon, the alternator wont suffice long"
+		""
+		"If you are familiar with Mekanism, many recipes have been changed for mod integration"
+	]
 	quest.268F6ECBFBE1B5BF.title: "Starting Mekanism"
-	quest.3DA58CD9472BF504.title: "Find a meteorite"
+	quest.2C42C8CA1C34878A.title: "Sequenced Crafting"
+	quest.35002ED8EFC0F702.title: "Rotational Power"
+	quest.369EFA0AA5A8455D.quest_desc: ["You'll need to use Mechanical Crafters to craft your first Crusher"]
+	quest.3A6458AABD3B4F2B.quest_desc: [
+		"Using these blocks you can press ingots into sheets, mix ingredients or make alloys, and more!"
+		""
+		"Use shafts to route rotational power around your base and connect your machines together"
+	]
+	quest.3A6458AABD3B4F2B.title: "Processing Blocks"
+	quest.3DA58CD9472BF504.quest_desc: [
+		"Applied Energistics 2 is all about item storage, transportation, and automatic crafting"
+		""
+		"The ME system is the heart and brain of your factory. It handles all the ins and outs of every item, and allows you to automate crafting trees to craft complex items on demand"
+		""
+		"To get started, you'll need to locate a meteorite. You can find them exposed above ground or hidden underground. Use a meteorite compass if you can't find one"
+	]
+	quest.3DA58CD9472BF504.title: "Starting Applied Energistics"
+	quest.457637A6CEF0E26A.quest_desc: ["Use these blocks to build your first moving contraption, you can automatically farm resources or dig through blocks!"]
+	quest.4AEF9040CD9D104E.title: "Basic Alloys"
+	quest.5CB983C98C88CE4A.quest_desc: ["Connect rotational power to the alternator and place your Metallurgic Infuser next to it to power it"]
+	quest.66331FF5C581D3A1.quest_subtitle: "Works with physics objects!"
+	quest.6B2D9B833929C224.quest_subtitle: "Find your new home"
+	quest.6B60335331E859F2.quest_desc: ["The Blaze Burner is essential for melting and mixing ingots into alloys for more advanced engineering"]
+	quest.70EF9FF526D074FE.quest_desc: [""]
+	quest.70EF9FF526D074FE.quest_subtitle: "Youre going to want one of these..."
+	quest.7C50AC59B085BE45.quest_desc: [
+		"Create is all about automation and building modular moving contraptions"
+		""
+		"You can \"Ponder\" most blocks to learn how to use them by hovering over them and holding \"W\" in your inventory"
+		""
+		"To get started I recommend digging lots of andesite"
+	]
+	quest.7C50AC59B085BE45.title: "Starting Create"
 	task.0EEA3BB1F3F25F8A.title: "Get Wood"
 	task.10C136C49FA034D9.title: "Find a meteorite"
 }

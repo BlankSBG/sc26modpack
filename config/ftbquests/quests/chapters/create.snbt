@@ -28,6 +28,28 @@
 	quests: [
 		{
 			id: "7C50AC59B085BE45"
+			rewards: [
+				{
+					count: 32
+					id: "1A48350FB17525D4"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5FD6B374589584E4"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
 			tasks: [
 				{
 					id: "25A665BA3F4DDF4F"
@@ -83,8 +105,29 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7C50AC59B085BE45"]
+			dependencies: [
+				"7C50AC59B085BE45"
+				"35002ED8EFC0F702"
+			]
 			id: "3A6458AABD3B4F2B"
+			rewards: [
+				{
+					id: "3C9C341780A06D73"
+					item: {
+						count: 1
+						id: "create:wrench"
+					}
+					type: "item"
+				}
+				{
+					id: "01BC848908197FD3"
+					item: {
+						count: 1
+						id: "create:goggles"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "40768115AA2E03EF"
@@ -119,11 +162,43 @@
 		{
 			dependencies: ["4AEF9040CD9D104E"]
 			id: "2C42C8CA1C34878A"
-			tasks: [{
-				id: "0998244E37F9EB08"
-				item: { count: 1, id: "create:deployer" }
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "27D8ADA2EA19B1E3"
+					item: {
+						count: 1
+						id: "create:andesite_funnel"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "00D66D9F17AD8E2C"
+					item: {
+						count: 1
+						id: "create:brass_funnel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0998244E37F9EB08"
+					item: { count: 1, id: "create:deployer" }
+					type: "item"
+				}
+				{
+					id: "0951B5FB4F2096D9"
+					item: { count: 1, id: "create:spout" }
+					type: "item"
+				}
+				{
+					id: "18EFEF2287C44633"
+					item: { count: 1, id: "create:belt_connector" }
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: -1.5d
 		}
@@ -131,6 +206,14 @@
 			dependencies: ["7C50AC59B085BE45"]
 			dependency_requirement: "one_completed"
 			id: "6787F023170CC550"
+			rewards: [{
+				id: "268F717B3B35DDB1"
+				item: {
+					count: 1
+					id: "simulated:honey_glue"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F82BF9C14483EB7"
 				item: { count: 1, id: "simulated:physics_assembler" }
@@ -162,14 +245,18 @@
 			y: 1.5d
 		}
 		{
+			dependencies: [
+				"7D2035C45E78C8CC"
+				"27454391021C47B8"
+			]
 			id: "3F92232E49CD83B8"
 			tasks: [{
 				id: "0ADDBE9D7B078B57"
 				item: { count: 1, id: "createdieselgenerators:diesel_engine" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3A6458AABD3B4F2B"]
@@ -188,6 +275,14 @@
 				"6787F023170CC550"
 			]
 			id: "09F195F6201B5CB9"
+			rewards: [{
+				id: "0B82FF5F0BC0D8A4"
+				item: {
+					count: 1
+					id: "aeronautics:aviators_goggles"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C852A612CFE5C02"
 				item: { count: 1, id: "simulated:red_portable_engine" }
@@ -199,6 +294,16 @@
 		{
 			dependencies: ["1AD920D6F7D46226"]
 			id: "5EA89EAB1B816E0D"
+			rewards: [{
+				id: "186EB7312D1EFB62"
+				item: {
+					count: 1
+					id: "create:rotation_speed_controller"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "7D987F6AAF0F3212"
 				item: { count: 1, id: "create:steam_engine" }
@@ -208,19 +313,37 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["369EFA0AA5A8455D"]
+			dependencies: [
+				"369EFA0AA5A8455D"
+				"2C42C8CA1C34878A"
+			]
 			id: "7D2035C45E78C8CC"
-			tasks: [{
-				id: "3FE3AA89C234BCEC"
-				item: { count: 1, id: "create:sturdy_sheet" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: 1.5d
+			tasks: [
+				{
+					id: "3FE3AA89C234BCEC"
+					item: { count: 1, id: "create:sturdy_sheet" }
+					type: "item"
+				}
+				{
+					id: "68058CDD3748BFE8"
+					item: { count: 1, id: "create:railway_casing" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["52DEA452C2672EAC"]
 			id: "5CB983C98C88CE4A"
+			rewards: [{
+				id: "1D5B9E862A9517FE"
+				item: {
+					count: 1
+					id: "createaddition:electric_motor"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3AD8ABA5167A09AB"
 				item: { count: 1, id: "createaddition:alternator" }
@@ -230,53 +353,241 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["3F92232E49CD83B8"]
 			id: "6A05A84097EDDDA2"
 			tasks: [{
 				id: "7828E5B17052FAD2"
 				item: { count: 1, id: "createdieselgenerators:large_diesel_engine" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.0d
+			x: 3.0d
+			y: -6.0d
 		}
 		{
+			dependencies: ["6A05A84097EDDDA2"]
 			id: "20CA68698BA3DA84"
 			tasks: [{
 				id: "3424669767592EDB"
 				item: { count: 1, id: "createdieselgenerators:huge_diesel_engine" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: 0.0d
+			x: 3.0d
+			y: -7.0d
 		}
 		{
+			dependencies: ["7C56710BE675E253"]
 			id: "17C6705A15F5F45D"
 			tasks: [{
 				id: "76339F03150D6354"
 				item: { count: 1, id: "createdieselgenerators:diesel_bucket" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: -2.5d
+			x: 2.0d
+			y: -6.0d
 		}
 		{
+			dependencies: ["7C56710BE675E253"]
 			id: "029F41B218DA4CDD"
 			tasks: [{
 				id: "6A08E2EBC5ED5F99"
 				item: { count: 1, id: "createdieselgenerators:gasoline_bucket" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: -2.5d
+			x: 1.0d
+			y: -6.0d
 		}
 		{
+			dependencies: ["11F8A024F2ED51BC"]
 			id: "7C56710BE675E253"
+			tasks: [
+				{
+					id: "269CE49192A248B9"
+					item: { count: 1, id: "createdieselgenerators:crude_oil_bucket" }
+					type: "item"
+				}
+				{
+					id: "47F9AE47DF9BFE0D"
+					item: { count: 1, id: "createdieselgenerators:distillation_controller" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C50AC59B085BE45"]
+			id: "35002ED8EFC0F702"
 			tasks: [{
-				id: "269CE49192A248B9"
-				item: { count: 1, id: "createdieselgenerators:crude_oil_bucket" }
+				id: "701684D7C4123C83"
+				item: { components: { "ftbfiltersystem:filter": "or(item(create:windmill_bearing)item(create:water_wheel))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["35002ED8EFC0F702"]
+			id: "457637A6CEF0E26A"
+			tasks: [
+				{
+					id: "22F32A90B9D499C2"
+					item: { count: 1, id: "create:mechanical_bearing" }
+					type: "item"
+				}
+				{
+					id: "2F9A7E53AAB3D85A"
+					item: { count: 1, id: "create:linear_chassis" }
+					type: "item"
+				}
+				{
+					id: "6F330EFE06CFBF7C"
+					item: { count: 1, id: "create:radial_chassis" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2C42C8CA1C34878A"]
+			id: "4D84E990378CCE41"
+			tasks: [{
+				id: "7D4A5E5D7D078338"
+				item: { count: 1, id: "create:track" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["457637A6CEF0E26A"]
+			id: "74C8211BFDAA8B20"
+			tasks: [{
+				id: "5D854732FBF82AB5"
+				item: { count: 1, id: "create:mechanical_drill" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["457637A6CEF0E26A"]
+			id: "403C5AAA5606F3E8"
+			tasks: [{
+				id: "273FBFBEFC35FF5C"
+				item: { count: 1, id: "create:mechanical_saw" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["457637A6CEF0E26A"]
+			id: "42EFE61B057833DD"
+			tasks: [{
+				id: "2CA4F0E9E2EB8EEE"
+				item: { count: 1, id: "create:mechanical_harvester" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["457637A6CEF0E26A"]
+			id: "5157FA6D5D56AEE8"
+			tasks: [{
+				id: "6628AB32FE0518ED"
+				item: { count: 1, id: "create:mechanical_plough" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1AD920D6F7D46226"
+				"7D2035C45E78C8CC"
+			]
+			id: "045A48B8B9F59E9E"
+			tasks: [{
+				id: "2E021A6362E256DB"
+				item: { count: 1, id: "create:controls" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D2035C45E78C8CC"]
+			id: "4B308C1A0B0012E5"
+			tasks: [{
+				id: "059DDFA5047DE2B4"
+				item: { count: 1, id: "create:schedule" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7D2035C45E78C8CC"]
+			id: "4044C0DBC30032B3"
+			tasks: [{
+				id: "5CCB895353364D90"
+				item: { count: 1, id: "create:track_station" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7D2035C45E78C8CC"]
+			id: "22CE49FDA01524E9"
+			tasks: [{
+				id: "58C9960472485818"
+				item: { count: 1, id: "create:track_signal" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7D2035C45E78C8CC"]
+			id: "3610B1ED0B09369C"
+			tasks: [{
+				id: "5E773D45CCC35B04"
+				item: { count: 1, id: "create:track_observer" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["457637A6CEF0E26A"]
+			id: "11F8A024F2ED51BC"
+			tasks: [
+				{
+					count: 2L
+					id: "703822F73BD94D54"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_bearing" }
+					type: "item"
+				}
+				{
+					id: "371BD75977B70293"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_head" }
+					type: "item"
+				}
+				{
+					id: "3F35593BFD31CFDF"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_crank" }
+					type: "item"
+				}
+				{
+					id: "69EDBBA42C9317D4"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_hole" }
+					type: "item"
+				}
+			]
+			x: 1.5d
 			y: -4.0d
 		}
 	]
