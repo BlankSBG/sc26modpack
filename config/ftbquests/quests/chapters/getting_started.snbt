@@ -3,21 +3,70 @@
 	default_quest_shape: ""
 	filename: "getting_started"
 	group: ""
+	icon: {
+		id: "minecraft:grass_block"
+	}
 	id: "1C38C421F58F3B24"
 	images: [ ]
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		icon: {
-			id: "minecraft:grass_block"
+	quests: [
+		{
+			icon: {
+				id: "minecraft:grass_block"
+			}
+			id: "1DA00726E7D87789"
+			tasks: [{
+				icon: {
+					id: "minecraft:oak_log"
+				}
+				id: "0EEA3BB1F3F25F8A"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
-		id: "1DA00726E7D87789"
-		tasks: [{
-			id: "0EEA3BB1F3F25F8A"
-			item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+		{
+			dependencies: ["1DA00726E7D87789"]
+			icon: {
+				id: "minecraft:crying_obsidian"
+			}
+			id: "5E12E858C90D35F5"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "05A92F6CD44B5A45"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E12E858C90D35F5"]
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
+			id: "5FD1B407DCE3A1A1"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "3A5CEBD648F6A758"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "twilightforest:lich_trophy"
+			}
+			id: "177F04CFB5216429"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "10EB1FB9DB2D524F"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
 }

@@ -3,10 +3,26 @@
 	default_quest_shape: ""
 	filename: "mystical_agriculture"
 	group: ""
+	icon: {
+		id: "mysticalagriculture:inferium_essence"
+	}
 	id: "2C829A7493474E8F"
 	images: [ ]
-	order_index: 4
-	quest_links: [ ]
+	order_index: 6
+	quest_links: [
+		{
+			id: "0A9090B202337DC7"
+			linked_quest: "1E31B68002DDD577"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "354B9A5495C6D84A"
+			linked_quest: "401B172496EA690F"
+			x: 4.0d
+			y: -1.5d
+		}
+	]
 	quests: [
 		{
 			id: "43DB48A873087ED5"
@@ -19,7 +35,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["401B172496EA690F"]
+			dependencies: [
+				"401B172496EA690F"
+				"174215FC78FBCA58"
+			]
 			id: "5303A8278277B1B4"
 			tasks: [{
 				id: "644878BE808B36FA"
@@ -30,7 +49,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1E31B68002DDD577"]
+			dependencies: [
+				"1E31B68002DDD577"
+				"43DB48A873087ED5"
+			]
 			id: "174215FC78FBCA58"
 			tasks: [{
 				id: "2C6ACE40C9C83BD1"
@@ -38,6 +60,84 @@
 				type: "item"
 			}]
 			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "5800EE1FFD995816"
+			tasks: [
+				{
+					id: "0B8B8E9B03714DBE"
+					item: { count: 1, id: "mysticalagriculture:infusion_altar" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "0A5F5CBBDE5C006F"
+					item: { count: 1, id: "mysticalagriculture:infusion_pedestal" }
+					type: "item"
+				}
+				{
+					id: "53867121777BF92C"
+					item: { count: 1, id: "mysticalagriculture:prosperity_seed_base" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5303A8278277B1B4"]
+			id: "7A80AE890D548DCF"
+			tasks: [{
+				id: "3CA4AC29839D5B28"
+				item: { count: 1, id: "mysticalagriculture:prudentium_essence" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A80AE890D548DCF"]
+			id: "1C05ACFDFBEFEC1C"
+			tasks: [{
+				id: "3E291EC8201533F9"
+				item: { count: 1, id: "mysticalagriculture:tertium_essence" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C05ACFDFBEFEC1C"]
+			id: "1AFD3C928E781D97"
+			tasks: [{
+				id: "50A7EAE0DE351FEC"
+				item: { count: 1, id: "mysticalagriculture:imperium_essence" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AFD3C928E781D97"]
+			id: "1D903DC19E06FCCA"
+			tasks: [{
+				id: "32B6DE0D9CECE841"
+				item: { count: 1, id: "mysticalagriculture:supremium_essence" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D903DC19E06FCCA"]
+			id: "2474D8C5479067B6"
+			tasks: [{
+				id: "1589EBF09E559B80"
+				item: { count: 1, id: "mysticalagriculture:awakened_supremium_essence" }
+				type: "item"
+			}]
+			x: 11.5d
 			y: 0.0d
 		}
 	]

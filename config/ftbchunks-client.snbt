@@ -138,46 +138,46 @@
 		# Default: true
 		entity_heads: false
 		entity_icon: {
-			"minecraft:squid": true
+			"minecraft:donkey": true
 			"aquaculture:boulti": false
-			"irons_spellbooks:necromancer": true
-			"mekanismadditions:baby_skeleton": true
-			"ars_nouveau:whirlisprig": true
-			"aquaculture:synodontis": false
-			"minecraft:cow": true
-			"minecraft:horse": true
-			"iceandfire:sea_serpent": true
-			"ars_nouveau:drygmy": true
-			"aquaculture:brown_trout": false
-			"minecraft:creeper": true
-			"minecraft:cod": false
-			"iceandfire:pixie": true
-			"minecraft:pig": true
-			"minecraft:zombie": true
-			"minecraft:trader_llama": true
-			"aquaculture:perch": false
-			"aquaculture:bayad": false
-			"minecraft:glow_squid": true
-			"quark:stoneling": true
-			"aquaculture:atlantic_herring": false
-			"aquaculture:jellyfish": false
-			"quark:toretoise": true
 			"minecraft:skeleton": true
 			"aquaculture:bluegill": false
-			"minecraft:sheep": true
-			"minecraft:wolf": true
-			"aquaculture:minnow": false
-			"minecraft:spider": true
-			"minecraft:bat": true
-			"minecraft:chicken": true
+			"minecraft:trader_llama": true
+			"iceandfire:pixie": true
+			"minecraft:zombie": true
+			"minecraft:cow": true
 			"ars_nouveau:starbuncle": true
-			"minecraft:enderman": true
 			"minecraft:zombie_villager": true
-			"aquaculture:gar": false
-			"minecraft:donkey": true
-			"mekanismadditions:baby_creeper": true
+			"minecraft:horse": true
+			"aquaculture:minnow": false
 			"minecraft:tropical_fish": false
+			"minecraft:sheep": true
+			"minecraft:squid": true
+			"minecraft:glow_squid": true
+			"ars_nouveau:drygmy": true
+			"minecraft:enderman": true
+			"ars_nouveau:whirlisprig": true
+			"quark:toretoise": true
 			"minecraft:bee": true
+			"aquaculture:perch": false
+			"irons_spellbooks:necromancer": true
+			"aquaculture:gar": false
+			"aquaculture:atlantic_herring": false
+			"minecraft:cod": false
+			"minecraft:spider": true
+			"aquaculture:brown_trout": false
+			"minecraft:pig": true
+			"quark:stoneling": true
+			"aquaculture:bayad": false
+			"aquaculture:synodontis": false
+			"minecraft:wolf": true
+			"aquaculture:jellyfish": false
+			"mekanismadditions:baby_creeper": true
+			"minecraft:bat": true
+			"iceandfire:sea_serpent": true
+			"mekanismadditions:baby_skeleton": true
+			"minecraft:creeper": true
+			"minecraft:chicken": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

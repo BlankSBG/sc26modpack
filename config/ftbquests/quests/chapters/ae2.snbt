@@ -3,9 +3,12 @@
 	default_quest_shape: ""
 	filename: "ae2"
 	group: ""
+	icon: {
+		id: "ae2:controller"
+	}
 	id: "31460D6C709428A2"
 	images: [ ]
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -25,6 +28,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["3DA58CD9472BF504"]
 			id: "3AD9C5E7D363A55A"
 			tasks: [{
 				id: "21EF3FCD021F80BA"
@@ -38,6 +42,7 @@
 			dependencies: [
 				"2C42C8CA1C34878A"
 				"3AD9C5E7D363A55A"
+				"158313878C349147"
 			]
 			id: "64BD51E2EE77F793"
 			tasks: [
@@ -58,27 +63,184 @@
 				}
 			]
 			x: 3.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["570C1D7DD813E304"]
 			id: "3A3E1DCFE40777A9"
 			tasks: [{
 				id: "4C3F3DE22305F5CA"
 				item: { count: 1, id: "ae2:fluix_pearl" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
+			dependencies: ["223CC136C7D834AB"]
 			id: "570C1D7DD813E304"
 			tasks: [{
 				id: "48FD118432F4E7FA"
 				item: { count: 1, id: "ae2:fluix_crystal" }
 				type: "item"
 			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3DA58CD9472BF504"]
+			id: "158313878C349147"
+			tasks: [{
+				id: "18B76D2AE1CB5B7C"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(ae2:inscriber_presses)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"64BD51E2EE77F793"
+				"570C1D7DD813E304"
+			]
+			id: "1849E675D8DE585D"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1CA7C257E7E67CFC"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64BD51E2EE77F793"]
+			id: "7CA2E733BAA1EFD7"
+			tasks: [
+				{
+					id: "21B690A11918BC60"
+					item: { count: 1, id: "ae2:drive" }
+					type: "item"
+				}
+				{
+					id: "6CD460A9ADE668AF"
+					item: { count: 1, id: "ae2:cell_component_1k" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4D5C9CCC134E4477"
+				"6274FA7615290793"
+			]
+			id: "36211BF3883CC847"
+			tasks: [{
+				id: "4BB4CF2B80E5FE11"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:crafting_terminal)item(ae2:pattern_encoding_terminal)item(ae2:terminal)item(ae2:pattern_access_terminal))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"570C1D7DD813E304"
+				"64BD51E2EE77F793"
+			]
+			id: "4D5C9CCC134E4477"
+			tasks: [
+				{
+					id: "2C1F4AB8F2FCB1C8"
+					item: { count: 1, id: "ae2:formation_core" }
+					type: "item"
+				}
+				{
+					id: "383C34D1452D9F63"
+					item: { count: 1, id: "ae2:annihilation_core" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1849E675D8DE585D"]
+			id: "13A90B58E6EF5488"
+			tasks: [
+				{
+					id: "5466024E3737ED51"
+					item: { count: 1, id: "ae2:pattern_provider" }
+					type: "item"
+				}
+				{
+					id: "5BA679722D89456F"
+					item: { count: 1, id: "ae2:crafting_accelerator" }
+					type: "item"
+				}
+				{
+					id: "032C0DD92E480733"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ae2:1k_crafting_storage)item(ae2:4k_crafting_storage)item(ae2:16k_crafting_storage)item(ae2:64k_crafting_storage)item(ae2:256k_crafting_storage))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "3E792C55AE6387AD"
+					item: { count: 1, id: "ae2:molecular_assembler" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A3E1DCFE40777A9"]
+			id: "3B75E3D3A21FFC28"
+			tasks: [{
+				id: "0DF7A4A269806C67"
+				item: { count: 1, id: "ae2:wireless_access_point" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3AD9C5E7D363A55A"]
+			id: "223CC136C7D834AB"
+			tasks: [
+				{
+					id: "068C85C4996607DB"
+					item: { count: 1, id: "ae2:charger" }
+					type: "item"
+				}
+				{
+					id: "1A44398586E2BDA4"
+					item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["570C1D7DD813E304"]
+			id: "6274FA7615290793"
+			tasks: [
+				{
+					id: "2BCAD35AA4820E32"
+					item: { count: 1, id: "ae2:fluix_glass_cable" }
+					type: "item"
+				}
+				{
+					id: "0A1992A8102A357E"
+					item: { count: 1, id: "ae2:quartz_fiber" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -3.0d
 		}
 	]
 }

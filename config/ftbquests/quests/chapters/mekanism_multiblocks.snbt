@@ -1,0 +1,431 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism_multiblocks"
+	group: ""
+	icon: {
+		id: "mekanism:sps_port"
+	}
+	id: "7FE54D019B610C76"
+	images: [ ]
+	order_index: 3
+	quest_links: [
+		{
+			id: "069F65AB6E3D82BB"
+			linked_quest: "08C333A05EC43735"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "1865A8F312D8E85E"
+			linked_quest: "5B5D18BF0BDC1845"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "508E6E8F3F953377"
+			linked_quest: "2399222A866D0F8B"
+			x: -7.0d
+			y: 2.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["1DD75A0516650CCB"]
+			id: "5D9B38EC95C56320"
+			shape: "gear"
+			tasks: [{
+				id: "67ECCB43B1D56FA5"
+				item: { count: 1, id: "mekanism:dust_lithium" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"08C333A05EC43735"
+				"5B5D18BF0BDC1845"
+				"56A79110DCC9D8C1"
+				"1D26305EFB843FEC"
+			]
+			id: "1DD75A0516650CCB"
+			tasks: [{
+				id: "6007F6A000897388"
+				item: { count: 1, id: "mekanism:chemical_crystallizer" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "56A79110DCC9D8C1"
+			tasks: [{
+				id: "11FFABD2DB3B442C"
+				item: { count: 1, id: "mekanism:fluorite_gem" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D82F0A8231D2A81"]
+			id: "3D003E951B9F0A73"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5223EC2DB51D3314"
+					item: { count: 1, id: "mekanism:thermal_evaporation_controller" }
+					type: "item"
+				}
+				{
+					count: 48L
+					id: "006BA0E69BDC3F47"
+					item: { count: 1, id: "mekanism:thermal_evaporation_block" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1AE98B6683402F67"
+					item: { count: 1, id: "mekanism:thermal_evaporation_valve" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"5D9B38EC95C56320"
+				"738C8E046C31EA5D"
+			]
+			id: "6DB7D658828BEDED"
+			tasks: [{
+				id: "33534371B2EACF8F"
+				item: { count: 1, id: "mekanism:basic_induction_cell" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5D9B38EC95C56320"
+				"738C8E046C31EA5D"
+			]
+			id: "3878F9B7622B866C"
+			tasks: [{
+				id: "5AFB7F908D233808"
+				item: { count: 1, id: "mekanism:basic_induction_provider" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D9B38EC95C56320"]
+			id: "12D4244FC111A586"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "36B862AD72D82A0A"
+					item: { count: 1, id: "mekanism:induction_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "39D7F0532346BAE8"
+					item: { count: 1, id: "mekanism:induction_port" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6FBD91CAFDCD36FF"
+				"22D2E8C30305A610"
+			]
+			id: "03BC42F8FCE1D896"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0AB6AFD3EEA7F7CB"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "16818AFD58EB8079"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_port" }
+					type: "item"
+				}
+				{
+					id: "1F953C53BEA7F63E"
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+				{
+					id: "508F503BED660C6D"
+					item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
+					type: "item"
+				}
+				{
+					id: "25CDB09BB65CE74E"
+					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B540EB2E9472367"]
+			icon: {
+				id: "minecraft:water_bucket"
+			}
+			id: "168D5B4A916D14C0"
+			tasks: [{
+				id: "127FA49B4A202FC0"
+				item: { count: 1, id: "mekanism:electric_pump" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6DB7D658828BEDED"]
+			id: "35F26D7B11962E7A"
+			tasks: [{
+				id: "1941E41394B65123"
+				item: { count: 1, id: "mekanism:advanced_induction_cell" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3878F9B7622B866C"]
+			id: "55EB0372C5F43D93"
+			tasks: [{
+				id: "1DCD5A67BB4C35C4"
+				item: { count: 1, id: "mekanism:advanced_induction_provider" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2652F0AEF1930943"]
+			icon: {
+				id: "mekanism:reprocessed_fissile_fragment"
+			}
+			id: "6FBD91CAFDCD36FF"
+			tasks: [{
+				id: "407BBA1A01FE34E9"
+				item: { count: 1, id: "mekanism:isotopic_centrifuge" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"32B73D19E76A5A6B"
+				"4DB0FFFF2BDD975F"
+			]
+			icon: {
+				id: "mekanism:uranium_hexafluoride_bucket"
+			}
+			id: "2652F0AEF1930943"
+			tasks: [{
+				id: "460B93E3F1CF45E7"
+				item: { count: 1, id: "mekanism:chemical_infuser" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["46115D48174C72BA"]
+			icon: {
+				id: "mekanism:uranium_oxide_bucket"
+			}
+			id: "32B73D19E76A5A6B"
+			tasks: [{
+				id: "29B81DAE643C965D"
+				item: { count: 1, id: "mekanism:chemical_oxidizer" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "30B3777C2A5044AD"
+			tasks: [{
+				id: "3C44637BF5DA156F"
+				item: { count: 1, id: "mekanism:ingot_uranium" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2399222A866D0F8B"
+				"30B3777C2A5044AD"
+			]
+			id: "46115D48174C72BA"
+			tasks: [{
+				id: "12F79ABB795925EB"
+				item: { count: 1, id: "mekanism:yellow_cake_uranium" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"56A79110DCC9D8C1"
+				"1F2666275BFE097C"
+			]
+			icon: {
+				id: "mekanism:hydrofluoric_acid_bucket"
+			}
+			id: "4DB0FFFF2BDD975F"
+			tasks: [{
+				id: "752B8910C11F9367"
+				item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3B29A153981AC71A"
+				"0D84C9CE7A581839"
+			]
+			icon: {
+				id: "mekanism:sulfuric_acid_bucket"
+			}
+			id: "1F2666275BFE097C"
+			tasks: [{
+				id: "1A04FDE27BBD5026"
+				item: { count: 1, id: "mekanism:chemical_infuser" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C1EA04BEA845CCD"]
+			id: "0D84C9CE7A581839"
+			tasks: [{
+				id: "31FA5F42A6007649"
+				item: { count: 1, id: "mekanism:rotary_condensentrator" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D003E951B9F0A73"]
+			id: "1D26305EFB843FEC"
+			tasks: [{
+				id: "54D69A84709D7596"
+				item: { count: 1, id: "mekanism:rotary_condensentrator" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"27481E5F3D9A362C"
+				"0A2CDC7B1795F5D2"
+			]
+			icon: {
+				id: "mekanism:sulfur_trioxide_bucket"
+			}
+			id: "3B29A153981AC71A"
+			tasks: [{
+				id: "298CB773E15C0D6F"
+				item: { count: 1, id: "mekanism:chemical_infuser" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["168D5B4A916D14C0"]
+			icon: {
+				id: "mekanism:oxygen_bucket"
+			}
+			id: "27481E5F3D9A362C"
+			tasks: [{
+				id: "57DC2A9E794B02F0"
+				item: { count: 1, id: "mekanism:electrolytic_separator" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["310533D8A8DDEBC5"]
+			icon: {
+				id: "mekanism:sulfur_dioxide_bucket"
+			}
+			id: "0A2CDC7B1795F5D2"
+			tasks: [{
+				id: "217BD214CE939896"
+				item: { count: 1, id: "mekanism:chemical_oxidizer" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["62BEACDB6FB41AC6"]
+			icon: {
+				id: "mekanism:dust_sulfur"
+			}
+			id: "310533D8A8DDEBC5"
+			tasks: [{
+				id: "7322A4CBF0E74373"
+				item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			id: "62BEACDB6FB41AC6"
+			tasks: [{
+				id: "33DAE80B2E5FD159"
+				item: { count: 1, id: "minecraft:coal" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5B540EB2E9472367"]
+			icon: {
+				id: "minecraft:water_bucket"
+			}
+			id: "22D2E8C30305A610"
+			tasks: [{
+				id: "22C7D30A7866F850"
+				item: { count: 1, id: "mekanism:electric_pump" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+	]
+}
